@@ -1,0 +1,974 @@
+{
+  "schema_version": "1.0",
+  "exam_body": "JAMB",
+  "subject_name": "Use of English",
+  "syllabus_year": 2026,
+  "version": "2026.1",
+  "last_updated": "2026-10-31",
+  "sections": [
+    {
+      "section_id": "jamb_eng_s1",
+      "section_title": "Section 1: Comprehension and Textual Analysis",
+      "topics": [
+        {
+          "topic_id": "jamb_eng_s1_t1",
+          "archived": false,
+          "title": "Critical Comprehension & Literal Extraction",
+          "summary": "This topic trains you to find, isolate and pick out facts that the author states directly in a passage, without adding your own opinion or outside knowledge.",
+          "exam_tip": "JAMB often hides literal answers right after transition words like however, indeed, in fact and notably. When a question asks about a detail, find the keyword in the passage and read the sentences just after these words.",
+          "analogy": "Literal extraction is like a passport control checkpoint. The officer does not care about your feelings; they only check the hard facts printed on the page. If the data does not match the text exactly, entry is denied.",
+          "sub_topics": [
+            {
+              "title": "Finding Facts and Rhetorical Strategies",
+              "note": "Literal extraction means finding facts that the author states directly. JAMB uses long sentences, appositives and bracketed statements to bury these facts. Authors use four main styles: Description (painting scenes with sensory details), Narration (telling events in time order), Exposition (explaining step by step and objectively) and Argumentation (using evidence and appeals to persuade). To extract information correctly, separate the main clause from the dependent clauses and modifiers around it.",
+              "formula": "Correct Literal Option = Textual Fact Paraphrased (Same Meaning)"
+            },
+            {
+              "title": "Spotting Distractors and Absolute Words",
+              "note": "JAMB distractors twist facts by swapping modifiers or by using absolute words such as always, never or solely when the text uses softer words like often, sometimes or generally. An option that cannot be proven by pointing to a sentence in the passage is wrong, even if it is true in real life.",
+              "formula": "Bait Distractor = Textual Fact + Absolute Modifier (Always / Never / Only)"
+            }
+          ],
+          "mnemonics": [
+            {
+              "acronym": "FACT",
+              "meaning": "The F-A-C-T Anchor",
+              "breakdown": [
+                "F - Find the keyword",
+                "A - Anchor the sentence",
+                "C - Check the modifiers",
+                "T - Take the match"
+              ]
+            }
+          ],
+          "flashcards": [
+            {"front": "Literal Extraction Core Definition", "back": "Retrieving explicitly stated facts from the text without adding personal interpretation or outside knowledge."},
+            {"front": "Expository Text Structure", "back": "A piece of writing designed entirely to inform, explain, analyze, or illustrate a specific topic objectively."},
+            {"front": "Argumentative Text Goal", "back": "A rhetorical style that uses logic, evidence, and reasoning to convince the reader of a specific viewpoint."},
+            {"front": "Narrative Text Blueprint", "back": "A chronological sequence of events structured around characters, a setting, a central conflict, and a resolution."},
+            {"front": "Descriptive Text Engine", "back": "Writing that relies on sensory details and vivid imagery to illustrate a person, place, or object."},
+            {"front": "Absolute Modifier Trap", "back": "Distractors that insert words like always, only, or never into a fact that the text qualified with sometimes or mostly."},
+            {"front": "Scanning Strategy", "back": "Moving your eyes rapidly over a text to locate specific keywords, numbers, names, or phrases."},
+            {"front": "Skimming Strategy", "back": "Reading a passage quickly to understand its general layout, core theme, or main ideas."},
+            {"front": "Semantic Equivalence", "back": "Options that change the literal words of the text using synonyms but keep the exact same underlying meaning."},
+            {"front": "Textual Qualification", "back": "Words that limit a statement (e.g., frequently, rarely, possibly) which must be matched exactly in the correct option."},
+            {"front": "Appositive Traps", "back": "A noun phrase placed next to another to define it; JAMB uses this to confuse readers about who performed an action."},
+            {"front": "Parenthetical Distraction", "back": "Information set off by dashes or brackets that can be skipped over to find the main fact."},
+            {"front": "Fact Verification Rule", "back": "If an option cannot be proven by pointing to a specific sentence in the text, it is incorrect."},
+            {"front": "Rhetorical Question Purpose", "back": "A question asked for dramatic effect rather than to get an answer, highlighting a core point."},
+            {"front": "Chronological Disruption", "back": "When an author uses flashbacks, disrupting the time order to confuse readers about the sequence of events."},
+            {"front": "Underlined Word Reference", "back": "Pronouns like it, they, which that require looking back to the previous sentence to find the true noun."},
+            {"front": "Extraneous Information", "back": "Options that are factually true in real life but are completely missing from the passage; these are incorrect."},
+            {"front": "Main Text Premise", "back": "The foundation on which the author builds their entire argument."},
+            {"front": "Contrastive Punctuation", "back": "Semicolons used to link two opposing facts; the correct answer often hinges on this contrast."},
+            {"front": "Direct Citation Matching", "back": "Verifying an option word-for-word against the text while scanning for hidden negative words."}
+          ]
+        },
+        {
+          "topic_id": "jamb_eng_s1_t2",
+          "archived": false,
+          "title": "Deep Inferential Reading & Authorial Intent",
+          "summary": "This topic trains you to read between the lines: finding meanings that are hinted at but not stated, and decoding the author's tone, mood and purpose.",
+          "exam_tip": "When a question asks 'What is the attitude of the author?' or 'It can be inferred that...', look closely at the adjectives and adverbs. If an author calls a policy 'a short-sighted gamble', the tone is critical, and the correct answer must show that disapproval.",
+          "analogy": "Inference is like seeing wet umbrellas walk into a windowless building. Nobody says 'it is raining outside', but the wet umbrellas are clear clues that tell you the weather.",
+          "sub_topics": [
+            {
+              "title": "Tone, Mood and Intent",
+              "note": "Inference means reading between the lines to find meanings that are implied but not stated. JAMB tests tone (the writer's attitude, such as cynical, optimistic, patronizing or satirical), mood (the feeling created for the reader) and intent (the writer's purpose, such as to lampoon, to advocate or to demystify). Look for loaded words, emotional adjectives and patterns in punctuation.",
+              "formula": "Valid Inference = Explicit Textual Clues + Deductive Logic"
+            },
+            {
+              "title": "Valid and Invalid Inferences",
+              "note": "An inference is valid only if it is a direct logical extension of the facts in the text. Anything that goes beyond the clues in the passage is speculation and must be rejected, even when it sounds believable in real life.",
+              "formula": "Invalid Inference = Speculation Outside the Text"
+            }
+          ],
+          "mnemonics": [
+            {
+              "acronym": "TIPS",
+              "meaning": "The T-I-P-S Gauge",
+              "breakdown": [
+                "T - Tone check",
+                "I - Intent identification",
+                "P - Proof tracking",
+                "S - Speculation elimination"
+              ]
+            }
+          ],
+          "flashcards": [
+            {"front": "Inferential Reading", "back": "Drawing logical conclusions from implicit clues and evidence left by the author."},
+            {"front": "Authorial Tone", "back": "The writer's attitude toward the subject, expressed through word choice and style."},
+            {"front": "Textual Mood", "back": "The atmosphere or emotional state created in the reader by the author's words."},
+            {"front": "Satirical Tone", "back": "Using humor, irony, exaggeration, or ridicule to expose and criticize human flaws or vices."},
+            {"front": "Cynical Tone", "back": "An attitude marked by a general distrust of human nature, motives, or institutions."},
+            {"front": "Objective Tone", "back": "Unbiased, neutral writing that relies on verifiable facts rather than personal feelings."},
+            {"front": "Authorial Intent", "back": "The main reason an author writes a text (e.g., to persuade, entertain, inform, or criticize)."},
+            {"front": "Implicit Meaning", "back": "Information that is hinted at or suggested without being stated directly."},
+            {"front": "Patronizing Tone", "back": "A condescending style that treats the reader or subject with an air of superior intelligence."},
+            {"front": "Nostalgic Tone", "back": "A sentimental longing for a past period, event, or condition."},
+            {"front": "Irony Identification", "back": "Spotting a contrast between expectation and reality, or between what is said and what is meant."},
+            {"front": "Over-Generalization Trap", "back": "An incorrect option that turns a specific implicit point into a sweeping universal claim."},
+            {"front": "Bias Detection", "back": "Identifying unreasoned judgment or prejudice in the author's choice of words."},
+            {"front": "Subtext Analysis", "back": "Looking at the underlying themes or meanings that run beneath the surface of the text."},
+            {"front": "Sarcastic Tone", "back": "Using sharp, ironic language designed to mock, insult, or cause hurt."},
+            {"front": "Didactic Tone", "back": "A writing style intended to teach, lecture, or moralize."},
+            {"front": "Euphemistic Shift", "back": "Replacing a harsh or blunt expression with a milder, indirect one to soften a statement."},
+            {"front": "Logical Deduction", "back": "A step-by-step process of reasoning where a conclusion follows necessarily from the stated premises."},
+            {"front": "Subjective Viewpoint", "back": "An outlook influenced by personal opinions, beliefs, and emotional preferences."},
+            {"front": "Speculative Distractor", "back": "An option that sounds plausible in real life but goes far beyond the clues provided in the passage."}
+          ]
+        },
+        {
+          "topic_id": "jamb_eng_s1_t3",
+          "archived": false,
+          "title": "Figurative Language & Rhetorical Devices",
+          "summary": "This topic covers the figures of speech JAMB puts in passages, such as metaphor, simile, personification, hyperbole, oxymoron, paradox and irony, and how to explain them in context.",
+          "exam_tip": "When JAMB asks the meaning of a phrase like 'He was a lion in the academic arena', pick the option that explains the figurative meaning (courage or dominant intelligence), not the literal meaning (animals or physical fighting).",
+          "analogy": "Figurative language is like a Snapchat filter on plain text. It changes how the text looks and adds style, but the real message underneath stays the same. Look past the filter to see the true message.",
+          "sub_topics": [
+            {
+              "title": "Common Figures of Speech",
+              "note": "The most tested figures are: metaphor (direct comparison), simile (comparison using like or as), personification (giving human traits to non-human things), hyperbole (extreme exaggeration), oxymoron (placing contradictory words side by side), paradox (a statement that seems to contradict itself but reveals a deeper truth) and irony (situational, verbal or dramatic contrast). Knowing them stops you from reading figurative expressions literally, which is a common JAMB trap.",
+              "formula": "Oxymoron = Adjective (Opposite A) + Noun (Opposite B), e.g. deafening silence"
+            },
+            {
+              "title": "Paradox and Interpreting Figures in Context",
+              "note": "A paradox is a statement that looks self-contradictory on the surface but holds a true idea underneath. When a question asks about a figure of speech in a passage, first name the device, then explain what it means in that context.",
+              "formula": "Paradox = Statement A (True) <-> Statement B (Seems to contradict A but reveals truth)"
+            }
+          ],
+          "mnemonics": [
+            {
+              "acronym": "MPHO",
+              "meaning": "The M-P-H-O Rules",
+              "breakdown": [
+                "M - Metaphor is direct",
+                "P - Personification animates",
+                "H - Hyperbole exaggerates",
+                "O - Oxymoron pairs opposites"
+              ]
+            }
+          ],
+          "flashcards": [
+            {"front": "Metaphor", "back": "A direct comparison between two unrelated things without using comparison words like like or as."},
+            {"front": "Simile", "back": "Explicitly comparing two different things using connection words, specifically like or as."},
+            {"front": "Personification", "back": "Giving human qualities, emotions, or actions to non-human objects, animals, or abstract ideas."},
+            {"front": "Hyperbole", "back": "Deliberate, extreme exaggeration used for emphasis or dramatic effect, not to be taken literally."},
+            {"front": "Oxymoron", "back": "Placing two contradictory or opposite terms right next to each other for structural impact."},
+            {"front": "Paradox", "back": "A statement that appears self-contradictory on the surface but contains an underlying truth."},
+            {"front": "Verbal Irony", "back": "When a speaker says the exact opposite of what they mean, often with a sarcastic edge."},
+            {"front": "Situational Irony", "back": "An event or outcome that turns out to be the direct opposite of what was reasonably expected."},
+            {"front": "Synecdoche", "back": "A figure of speech where a part is used to represent the whole, or the whole represents a part."},
+            {"front": "Metonymy", "back": "Replacing the name of an object or concept with something closely associated with it."},
+            {"front": "Litotes", "back": "An understatement produced by denying the opposite of a statement, often using a double negative."},
+            {"front": "Onomatopoeia", "back": "Words that imitate the natural sound associated with the action or object they describe."},
+            {"front": "Alliteration", "back": "Repeating the same consonant sound at the beginning of words that sit close together in a sentence."},
+            {"front": "Euphemism", "back": "Using a mild, indirect expression to replace a harsh, blunt, or unpleasant statement."},
+            {"front": "Antithesis", "back": "Placing two opposing ideas together in parallel structures to create a clear contrast."},
+            {"front": "Apostrophe", "back": "Directly addressing an absent person, an abstract idea, or an inanimate object as if it were present and alive."},
+            {"front": "Climax Structure", "back": "Arranging words, phrases, or clauses in an ascending order of importance or emotional weight."},
+            {"front": "Anti-Climax", "back": "A sudden drop from a dignified, important tone to a trivial or disappointing one."},
+            {"front": "Pun", "back": "A play on words that exploits multiple meanings or words that sound alike but mean different things."},
+            {"front": "Allegory", "back": "An extended narrative metaphor where characters and events symbolize deeper moral or political truths."}
+          ]
+        },
+        {
+          "topic_id": "jamb_eng_s1_t4",
+          "archived": false,
+          "title": "Contextual Cloze Text & Vocabulary Cohesion",
+          "summary": "This topic covers the Cloze Test, where you fill blanks in a passage by using meaning, grammar, natural word pairings (collocations) and linking words.",
+          "exam_tip": "When the options look the same, check the word right after the blank. If the next word is 'on' and the options are depend, rely, hinge or agree, study the context closely. A door hinges on a pivot, while people rely on friends.",
+          "analogy": "A Cloze Test is like a jigsaw puzzle with missing pieces. You cannot find the missing piece by staring only at the empty space. You must study the colours, shapes and patterns around it to find the word that fits perfectly.",
+          "sub_topics": [
+            {
+              "title": "How the Cloze Test Works",
+              "note": "The Cloze Test is a passage of about 200 words with 10 blank spaces. It tests your vocabulary, sentence structure and reading flow. Unlike single vocabulary questions, you must understand how the whole sentence flows. Success depends on two things: collocation (natural word pairings like commit a crime or wreak havoc) and structural connectives (prepositions and conjunctions that link ideas).",
+              "formula": "Correct Cloze Entry = Contextual Synonym + Syntactic Accordance + Collocational Match"
+            },
+            {
+              "title": "Collocations and Prepositional Anchors",
+              "note": "You cannot solve a blank on its own. Read the sentences before and after it to understand the theme and style. A preposition right after the blank can tell you which verb must come before it.",
+              "formula": "Collocation Anchor = Verb + Mandated Preposition, e.g. abstain + from"
+            }
+          ],
+          "mnemonics": [
+            {
+              "acronym": "LINK",
+              "meaning": "The L-I-N-K Strategy",
+              "breakdown": [
+                "L - Look ahead",
+                "I - Identify the domain register",
+                "N - Note the surrounding prepositions",
+                "K - Keep paragraph unity"
+              ]
+            }
+          ],
+          "flashcards": [
+            {"front": "Cloze Test Mechanics", "back": "Filling blanks in a passage by evaluating sentence syntax, context, and structural vocabulary cohesion."},
+            {"front": "Collocation Definition", "back": "Words that naturally and frequently pair together in standard English usage."},
+            {"front": "Textual Cohesion", "back": "The grammatical and lexical links that hold a text together and give it structural unity."},
+            {"front": "Domain Register", "back": "Vocabulary and technical terms specific to a particular field, profession, or subject area."},
+            {"front": "Lexical Clues", "back": "Words near a blank space that point to the meaning or grammatical form of the missing word."},
+            {"front": "Syntactic Fit", "back": "Ensuring a chosen word matches the exact grammatical structure required by the sentence."},
+            {"front": "Structural Connectives", "back": "Conjunctions and prepositions that establish logical transitions between clauses."},
+            {"front": "Contextual Substitution", "back": "Testing an option by inserting it into the blank to see if it preserves the meaning of the sentence."},
+            {"front": "Idiomatic Collocation", "back": "Fixed word pairings that follow established idioms rather than standard literal rules."},
+            {"front": "Semantic Consistency", "back": "Making sure a chosen word fits the overall theme and argument of the entire passage."},
+            {"front": "Prepositional Anchor", "back": "A preposition right after a blank that determines which verb can grammatically precede it."},
+            {"front": "Transition Markers", "back": "Words like furthermore, consequently, or alternatively that signal the direction of the text's argument."},
+            {"front": "Correlative Anchor", "back": "Pairs of words like either...or or not only...but also that dictate choices across a blank."},
+            {"front": "Redundancy Avoidance", "back": "Eliminating options that repeat a meaning already expressed in the sentence."},
+            {"front": "Parts of Speech Match", "back": "Verifying if a blank requires a noun, verb, adjective, or adverb based on the sentence layout."},
+            {"front": "Qualifier Alignment", "back": "Ensuring options match nearby qualifiers like some, all, many, or few."},
+            {"front": "Determiner Constraints", "back": "Singular or plural determiners (this, these, that, those) that limit the nouns that can fill a blank."},
+            {"front": "Narrative Flow", "back": "Maintaining a consistent timeline and perspective throughout the text."},
+            {"front": "Structural Disruption", "back": "Eliminating options that break standard punctuation or capitalization rules."},
+            {"front": "Global Text Meaning", "back": "Keeping the core focus of the entire passage in mind when solving individual blank spaces."}
+          ]
+        },
+        {
+          "topic_id": "jamb_eng_s1_t5",
+          "archived": false,
+          "title": "Prescribed Novel Characterization & Narrative Arc",
+          "summary": "This topic covers the set literature text, 'The Lekki Headmaster' by Kabir Alabi Garba: its characters, plot, settings and themes such as integrity, discipline and corruption.",
+          "exam_tip": "Pay close attention to scenes where the Headmaster confronts local corruption or handles pushback from the community. Questions often test the reasons behind these conflicts, not just the events.",
+          "analogy": "Studying the set novel is like analysing a chess match. You cannot just memorise where the pieces stand; you must understand why each player moves, trace their plans, and see how each move leads to the final checkmate.",
+          "sub_topics": [
+            {
+              "title": "Characters, Plot and Themes",
+              "note": "JAMB sets specific questions on a chosen literature text, currently 'The Lekki Headmaster' by Kabir Alabi Garba. You are tested on character traits, key plot events, subplots, settings and central themes (such as integrity, discipline and systemic corruption). Look beyond simple plot summaries: understand why characters act as they do, trace how conflicts grow, and find the causes and effects of major turning points.",
+              "formula": "Correct Character Option = Stated Motivation + Verified Action in Plot"
+            },
+            {
+              "title": "Common Novel Traps",
+              "note": "Distractors often mix up characters or give one character's words or actions to another. Always check who did or said what before choosing an answer.",
+              "formula": "JAMB Trap = True Event + Swapped Character Actor"
+            }
+          ],
+          "mnemonics": [
+            {
+              "acronym": "PASS",
+              "meaning": "The P-A-S-S Blueprint",
+              "breakdown": [
+                "P - Plot milestones",
+                "A - Actor motivations",
+                "S - Spatial settings",
+                "S - Symbolic themes"
+              ]
+            }
+          ],
+          "flashcards": [
+            {"front": "Prescribed Novel Focus", "back": "Explicitly tracking characters, plot development, themes, and settings within the current set book."},
+            {"front": "Protagonist Arc", "back": "Tracing the main character's development and challenges throughout the narrative."},
+            {"front": "Central Theme", "back": "The core idea, moral lesson, or social message exploring issues like integrity or reform."},
+            {"front": "Narrative Conflict", "back": "The primary struggle between opposing forces (e.g., character vs. system) that drives the plot forward."},
+            {"front": "Antagonist Force", "back": "The character, institution, or social pressure that stands in direct opposition to the protagonist."},
+            {"front": "Narrative Setting", "back": "The physical locations, cultural environment, and time periods where the story takes place."},
+            {"front": "Subplot Integration", "back": "Secondary storylines that run alongside the main plot to add depth and support the core themes."},
+            {"front": "Character Motivation", "back": "The underlying psychological reasons, values, or desires that drive a character's actions."},
+            {"front": "Climax Milestone", "back": "The highest point of tension or major turning point in the story's narrative arc."},
+            {"front": "Resolution Phase", "back": "The final stage of the story where conflicts are settled and character fates are determined."},
+            {"front": "Dramatic Irony in Novel", "back": "Structural moments where the reader knows vital information that a character is unaware of."},
+            {"front": "Symbolic Element", "back": "An object, location, or repeating motif used to represent a larger abstract idea."},
+            {"front": "Direct Quote Attribution", "back": "Tracking which character spoke specific lines during key turning points in the book."},
+            {"front": "Minor Character Role", "back": "Supporting characters designed to spark reactions or reveal key traits in the main characters."},
+            {"front": "Structural Foil", "back": "A character whose traits contrast directly with another character to emphasize specific qualities."},
+            {"front": "Flashback Technique", "back": "Interrupting the timeline to show past events, filling in crucial backstory for characters."},
+            {"front": "Societal Microcosm", "back": "Using a small setting, like a school, to represent and critique issues in the broader society."},
+            {"front": "Dialogue Analysis", "back": "Examining conversations to understand inner feelings, relationships, and hidden character agendas."},
+            {"front": "Moral Dilemma", "back": "Situations where characters must make tough choices between conflicting moral values."},
+            {"front": "Authorial Perspective", "back": "The writer's standpoint and social commentary, revealed through how characters are rewarded or punished."}
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "jamb_eng_s2",
+      "section_title": "Section 2: Lexis, Structure and Grammatical Mechanics",
+      "topics": [
+        {
+          "topic_id": "jamb_eng_s2_t1",
+          "archived": false,
+          "title": "Subject-Verb Concord & Alternative Plurality",
+          "summary": "This topic covers how a verb must agree in number and person with its true subject, including tricky cases like either...or, as well as, many a and collective nouns.",
+          "exam_tip": "If you see Neither/Nor or Either/Or, ignore the first noun. Find the noun right next to the verb slot. If it is plural, choose a plural verb; if it is singular, choose a singular verb.",
+          "analogy": "Accompaniment concord is like a celebrity walking the red carpet with bodyguards. The cameras (the verb) focus only on the celebrity (Subject 1). The bodyguards (as well as, along with) are extras and do not change who gets the spotlight.",
+          "sub_topics": [
+            {
+              "title": "Proximity and Accompaniment Concord",
+              "note": "Concord means the verb agrees with its true subject. With either...or, neither...nor and not only...but also, the verb matches the closest subject (proximity concord). Phrases like as well as, along with and together with are only extra information, so the verb matches the first subject and ignores the added one (accompaniment concord).",
+              "formula": "Subject 1 + as well as / along with + Subject 2 -> Verb matches Subject 1 | Subject 1 + or / nor + Subject 2 -> Verb matches Subject 2"
+            },
+            {
+              "title": "Many a and Collective Nouns",
+              "note": "The modifier 'Many a' is singular: it always takes a singular noun and a singular verb. Collective nouns (like committee or team) take a singular verb when the group acts as one unit, and a plural verb when the members act individually or disagree.",
+              "formula": "Many a + Singular Noun -> Singular Verb"
+            }
+          ],
+          "mnemonics": [
+            {
+              "acronym": "PASS",
+              "meaning": "The P-A-S-S Concord Map",
+              "breakdown": [
+                "P - Proximity looks near",
+                "A - Accompaniment looks first",
+                "S - Singular for each and every",
+                "S - Split collective verbs for division"
+              ]
+            }
+          ],
+          "flashcards": [
+            {"front": "Grammatical Concord", "back": "The structural requirement that a verb must match its subject in both number and person."},
+            {"front": "Proximity Rule Formula", "back": "Verb matches the nearest subject when clauses are linked by either...or, neither...nor, or, not only...but also."},
+            {"front": "Accompaniment Formula", "back": "Subject1 + (as well as / along with / together with) + Subject2 -> Verb matches Subject1 only."},
+            {"front": "'Many a' Formula", "back": "Many a + Singular Noun -> Singular Verb."},
+            {"front": "Collective Unity Concord", "back": "Group nouns acting together as a single unit take a singular verb."},
+            {"front": "Collective Division Concord", "back": "Group nouns whose members act individually or disagree take a plural verb."},
+            {"front": "Indefinite Pronoun Concord", "back": "Pronouns like everyone, someone, nobody, each, every are singular and take singular verbs."},
+            {"front": "'One of the' Base Rule", "back": "One of + Plural Noun -> Singular Verb."},
+            {"front": "'One of the... who' Exception", "back": "One of + Plural Noun + who/that relative clause -> Plural Verb."},
+            {"front": "'A number of' Concord", "back": "A number of acts as a plural modifier and always takes a plural verb."},
+            {"front": "'The number of' Concord", "back": "The number of points to a single fixed count and always takes a singular verb."},
+            {"front": "Plural Form, Singular Meaning", "back": "Nouns plural in spelling but singular in concept (physics, economics, news) take singular verbs."},
+            {"front": "Mathematical Operation Concord", "back": "Sums, equations, distances, amounts of money, and periods of time take singular verbs."},
+            {"front": "Pair Nouns Modifier Rule", "back": "Nouns like scissors, spectacles, trousers take plural verbs unless preceded by 'a pair of'."},
+            {"front": "Fractions and Percentages Rule", "back": "The verb matches the specific noun that follows the preposition 'of'."},
+            {"front": "Inverted Concord Syntax", "back": "Tracking the true subject when it is placed after the verb in sentences starting with there or here."},
+            {"front": "Quasi-Conjunction Rule", "back": "Modifiers like with, except, besides do not combine nouns into a plural compound subject."},
+            {"front": "'More than one' Rule", "back": "More than one + Singular Noun -> Singular Verb."},
+            {"front": "Compound Subjects with 'And'", "back": "Two distinct nouns joined by and take a plural verb unless they form a single combined concept (rice and beans)."},
+            {"front": "'Nothing but' Concord", "back": "Nothing but + Noun (singular or plural) -> Singular Verb."}
+          ]
+        },
+        {
+          "topic_id": "jamb_eng_s2_t2",
+          "archived": false,
+          "title": "Tense Sequences, Aspect Matching & Time Markers",
+          "summary": "This topic covers keeping time order correct in compound and complex sentences, especially the Past Perfect, and matching tenses with time words like before, since and for.",
+          "exam_tip": "Look for the words 'before' or 'by the time' in past-tense sentences. If two past actions are described, find the one that happened first and make sure it uses had + past participle. Example: 'The train had left before we arrived.'",
+          "analogy": "Past Perfect is like a grandfather and Simple Past is like a father. Both belong to the past, but the grandfather (Past Perfect) is always older and comes before the father (Simple Past) in the family timeline.",
+          "sub_topics": [
+            {
+              "title": "Aspects and the Past Perfect",
+              "note": "You must know the three aspects of verbs: Progressive (ongoing actions), Perfective (completed actions) and Habitual (repeated actions). JAMB often tests the Past Perfect (had + past participle), used to order two actions that both happened in the past. The action that finished first uses the Past Perfect; the later action uses the Simple Past.",
+              "formula": "Action 1 (finished first) = Had + Past Participle | Action 2 (happened second) = Simple Past"
+            },
+            {
+              "title": "Time Markers and Tense Consistency",
+              "note": "Time words such as since, for, before and by the time decide which tense to use. If the main verb of a sentence is past, the verbs in the other clauses must also shift to a past form. Mixing up timelines or choosing the wrong helping verb is a common distractor trap.",
+              "formula": "Sequence: Action 1 [Had + V3] -> before -> Action 2 [V2]"
+            }
+          ],
+          "mnemonics": [
+            {
+              "acronym": "TAMP",
+              "meaning": "The T-A-M-P Sequence",
+              "breakdown": [
+                "T - Time markers first",
+                "A - Aspect matching",
+                "M - Matrix tense consistency",
+                "P - Perfective sorting"
+              ]
+            }
+          ],
+          "flashcards": [
+            {"front": "Verbal Tense", "back": "The grammatical form of a verb that shows the time of an action (past, present, or future)."},
+            {"front": "Verbal Aspect", "back": "Shows how an action relates to time, focusing on whether it is complete, ongoing, or habitual."},
+            {"front": "Past Perfect Formula", "back": "Had + Past Participle; used for the earlier of two completed past actions."},
+            {"front": "Present Perfect Purpose", "back": "Has/Have + Past Participle; links a past action directly to the present moment."},
+            {"front": "Future Perfect Deadline", "back": "Will have + Past Participle; shows an action that will be completed before a specific future endpoint."},
+            {"front": "Habitual Present Tense", "back": "Expresses permanent facts, universal laws, or recurring routines."},
+            {"front": "Matrix Clause Constraint", "back": "If the principal verb of a sentence is past, subordinate clauses must shift to a past form as well."},
+            {"front": "Continuous Tense Bound", "back": "Actions shown as in-progress at a specific point in time using a form of be + present participle."},
+            {"front": "Stative Verb Constraint", "back": "Verbs of thought, emotion, or ownership (know, love, belong) cannot be used in continuous tenses."},
+            {"front": "'Since' Tense Sequence", "back": "Present Perfect Clause + since + Simple Past Clause."},
+            {"front": "Historical Present Exception", "back": "Using the present tense to make past historical events feel vivid and immediate."},
+            {"front": "'For' vs. 'Since' Markers", "back": "For shows a total duration of time; Since points to a specific starting moment."},
+            {"front": "Irregular Verb Inflections", "back": "Verbs that change vowels to form the past tense (sing/sang/sung) instead of adding -ed."},
+            {"front": "Imperfective Aspect", "back": "A verb form that focuses on the ongoing, incomplete nature of an action."},
+            {"front": "Perfective Aspect", "back": "A verb form that views an action as a single, fully completed event."},
+            {"front": "Temporal Conjunctions", "back": "Connection words like when, while, before, after, until that determine tense alignment."},
+            {"front": "Punctual Actions", "back": "Sudden, short actions that interrupt ongoing background activities, using the Simple Past."},
+            {"front": "Durative Actions", "back": "Long-lasting background actions that use continuous verb forms."},
+            {"front": "Universal Truth Shield", "back": "Scientific or geographical facts stay in the present tense even inside past narratives."},
+            {"front": "Tense Conflation Trap", "back": "Mixing up the past tense form (V2) with the past participle form (V3) without an auxiliary verb."}
+          ]
+        },
+        {
+          "topic_id": "jamb_eng_s2_t3",
+          "archived": false,
+          "title": "Mood Shifts: Mandative Subjunctives & Unreal Passages",
+          "summary": "This topic covers the subjunctive mood, used for wishes, imaginary situations and urgent demands, including the 'It is high time' pattern.",
+          "exam_tip": "If a sentence begins 'It is high time we...', look only for options in the Simple Past. 'It is high time we studied' is correct, while 'It is high time we start studying' is an intentional trap.",
+          "analogy": "The subjunctive mood is like entering a courtroom. The moment you cross the door ('I demand that...'), normal street grammar is suspended. Verbs must take off their decorations (-s, -ed) and stand in their bare base form before the judge.",
+          "sub_topics": [
+            {
+              "title": "The Mandative Subjunctive",
+              "note": "The mandative subjunctive is triggered by verbs of demand, advice or urgency (insist, demand, suggest, recommend) followed by a that-clause. It needs the base form of the verb: no -s ending and no -ed ending. Example: I suggest that he go.",
+              "formula": "Demand Verb (insist / demand) + that + Subject -> Base Verb Form (no -s / -ed / -ing)"
+            },
+            {
+              "title": "The Unreal Past Subjunctive",
+              "note": "The unreal past is triggered by wish, as if, as though and it is high time. 'It is high time we...' needs the Simple Past to show an action is overdue. If no subject follows, use an infinitive phrase (it is time to go).",
+              "formula": "It is high time + Subject -> Simple Past | It is high time + (no subject) -> To + Base Verb"
+            }
+          ],
+          "mnemonics": [
+            {
+              "acronym": "BARE",
+              "meaning": "The B-A-R-E Rule",
+              "breakdown": [
+                "B - Base form for orders",
+                "A - Alter with past for wishes",
+                "R - Remove -s markers",
+                "E - Enforce 'were' for all"
+              ]
+            }
+          ],
+          "flashcards": [
+            {"front": "Grammatical Mood", "back": "Shows the speaker's attitude toward what they are saying, treating it as a fact, command, wish, or uncertainty."},
+            {"front": "Subjunctive Mood", "back": "Used for hypothetical situations, strong wishes, demands of urgency, or statements contrary to fact."},
+            {"front": "Mandative Subjunctive Formula", "back": "Command Verb + that + Subject + Base Verb (e.g., I suggest that he go)."},
+            {"front": "'It is high time' with Subject", "back": "It is high time + Subject + Simple Past Verb (shows an action is overdue)."},
+            {"front": "'It is high time' without Subject", "back": "It is high time + to + Base Verb."},
+            {"front": "'Would rather' Hypothetical Shift", "back": "Subject1 + would rather + Subject2 + Simple Past Verb (e.g., I'd rather you left)."},
+            {"front": "'Would rather' Base Fit", "back": "Subject + would rather + Base Verb (when no second subject is introduced)."},
+            {"front": "Past Subjunctive 'Were' Rule", "back": "Using were for all subjects, including singular pronouns, to show an impossible condition."},
+            {"front": "'As if / As though' Present Illusion", "back": "Main Clause + as if + Subject + Past Subjunctive (shows a false present appearance)."},
+            {"front": "'As if / As though' Past Illusion", "back": "Past Clause + as if + Subject + Past Perfect (shows a false past appearance)."},
+            {"front": "Suppositional Clauses", "back": "Clauses starting with if, lest, or should that express possibilities or warnings."},
+            {"front": "'Lest' Auxiliary Constraint", "back": "Lest means 'for fear that' and must only pair with the base verb or the helper should."},
+            {"front": "Base Verb Form", "back": "The root, uninflected form of a verb with no tense markers or plural suffixes."},
+            {"front": "Optative Subjunctive", "back": "Expressions of blessings, wishes, or curses that use the base verb form (e.g., Long live the King)."},
+            {"front": "Formulaic Subjunctive", "back": "Fixed, traditional expressions that keep old subjunctive rules alive (e.g., be that as it may)."},
+            {"front": "Indicative vs. Subjunctive", "back": "Indicative states real facts; Subjunctive explores ideas, desires, or conditions contrary to fact."},
+            {"front": "Urgency Adjectives", "back": "Words like essential, vital, crucial, imperative that trigger the mandative subjunctive."},
+            {"front": "Conditional Subjunctive Link", "back": "Using past subjunctive forms within the condition clause of Type 2 patterns."},
+            {"front": "Present Wish Subjunctive", "back": "Subject + wish + Subject + Simple Past Verb (shows discontent with current reality)."},
+            {"front": "Subjunctive Volition", "back": "Using the subjunctive mood to express a deliberate choice, exercise of will, or formal request."}
+          ]
+        },
+        {
+          "topic_id": "jamb_eng_s2_t4",
+          "archived": false,
+          "title": "Structural Conditionals: Hypotheses & Regrets",
+          "summary": "This topic covers the three main types of if-sentences (real, unreal and impossible past), plus inverted forms like 'Had I known...'.",
+          "exam_tip": "If a question starts 'Had I been told...', do not look for present tense options. This is an inverted Type 3 conditional. Look only for choices with 'would have' or 'could have' + past participle.",
+          "analogy": "The three conditional types are like a video game. Type 1 is a level you can easily win now. Type 2 is a fantasy level you are unlikely to enter. Type 3 is a level you already lost yesterday; you can only look back and wish you had played differently.",
+          "sub_topics": [
+            {
+              "title": "Type 1, Type 2 and Type 3 Conditionals",
+              "note": "A conditional sentence has an if-clause (the condition) and a main clause (the result). Type 1 (real present or future): If + present -> will + base verb. Type 2 (unreal or unlikely present): If + past -> would + base verb. Type 3 (impossible past regret): If + past perfect -> would have + past participle.",
+              "formula": "Type 1: If + Simple Present -> Will + Base | Type 2: If + Simple Past -> Would + Base | Type 3: If + Had + V3 -> Would Have + V3"
+            },
+            {
+              "title": "Inverted Conditionals",
+              "note": "JAMB often removes the word 'If' in Type 3 and moves 'Had' to the front of the sentence. The meaning stays the same: 'Had I known, I would have come' means 'If I had known, I would have come'.",
+              "formula": "Inverted Type 3: Had + Subject + Past Participle -> Would Have + Past Participle"
+            }
+          ],
+          "mnemonics": [
+            {
+              "acronym": "123",
+              "meaning": "The 1-2-3 Condition Code",
+              "breakdown": [
+                "1 - Present / Will",
+                "2 - Past / Would",
+                "3 - Had / Would Have"
+              ]
+            }
+          ],
+          "flashcards": [
+            {"front": "Conditional Sentence", "back": "A structure featuring an if-clause (condition) and a main clause (consequence) showing dependency."},
+            {"front": "Conditional Type 1", "back": "If + Simple Present -> Will + Base Verb (shows a real future possibility)."},
+            {"front": "Conditional Type 2", "back": "If + Simple Past -> Would + Base Verb (shows an unreal or unlikely present scenario)."},
+            {"front": "Conditional Type 3", "back": "If + Past Perfect -> Would Have + Past Participle (shows an impossible past regret)."},
+            {"front": "Inverted Conditional Type 3", "back": "Had + Subject + Past Participle -> Would Have + Past Participle (drops the word if)."},
+            {"front": "Zero Conditional Formula", "back": "If + Simple Present -> Simple Present (used for scientific laws and absolute certainties)."},
+            {"front": "Mixed Conditional Type A", "back": "If + Past Perfect -> Would + Base Verb (links a past condition to a present result)."},
+            {"front": "Mixed Conditional Type B", "back": "If + Simple Past -> Would Have + Past Participle (links a continuous condition to a past result)."},
+            {"front": "'Unless' Structural Constraint", "back": "Means 'if not'; it introduces a negative condition and avoids double negatives in its clause."},
+            {"front": "'Provided that' Modifier", "back": "Acts as an exact structural equivalent to if, introducing a mandatory requirement."},
+            {"front": "Conditional Inversion Type 2", "back": "Were + Subject + Infinitive -> Would + Base Verb (e.g., Were I to jump...)."},
+            {"front": "Hypothetical Consequence", "back": "The outcome in a conditional structure that relies entirely on the if-clause happening."},
+            {"front": "'But for' Construction", "back": "Means 'if it hadn't been for'; always triggers a Type 3 conditional outcome."},
+            {"front": "Past Participle Alignment", "back": "Ensuring the core verb in a Type 3 outcome uses its third inflection form (V3)."},
+            {"front": "Modal Variance in Consequence", "back": "Swapping would with could (ability) or might (possibility) to change the meaning of the outcome."},
+            {"front": "'In case' vs. 'If'", "back": "In case shows preparation for a potential event; If shows an action that happens only after a condition is met."},
+            {"front": "Counterfactual Thinking", "back": "Imagining alternative outcomes to past events, which forms the basis of Type 3 structures."},
+            {"front": "Conditional Clause Punctuation", "back": "If the if-clause comes first, add a comma; if the main clause comes first, remove the comma."},
+            {"front": "'Should' Inversion Type 1", "back": "Should + Subject + Base Verb -> Will + Base Verb (adds a formal tone to a Type 1 condition)."},
+            {"front": "Open Condition", "back": "A scenario in a Type 1 structure where the outcome remains completely unresolved but highly possible."}
+          ]
+        },
+        {
+          "topic_id": "jamb_eng_s2_t5",
+          "archived": false,
+          "title": "Pronoun Case Assignment & Antecedent Alignment",
+          "summary": "This topic covers choosing the right pronoun form (I/me, who/whom) and making pronouns match the nouns they stand for in gender, number and person.",
+          "exam_tip": "Whenever a pronoun follows the word 'between', cross out options with I, he, she or they. Prepositions must be followed by the objective case. 'Between you and me' is correct; 'Between you and I' is an intentional trap.",
+          "analogy": "Pronouns are like actors in costumes. The Subjective costume (I, he, she) is worn only by actors performing actions at the front of the stage. The Objective costume (me, him, her) is worn by those receiving actions or standing behind the preposition gate. Putting 'I' after a preposition is like an actor wearing the wrong costume.",
+          "sub_topics": [
+            {
+              "title": "Subjective, Objective and Possessive Case",
+              "note": "Pronouns must match their antecedents in gender, number and person, and their position decides their case. Subjective case (I, we, he, she, they, who) is used when the pronoun does the action. Objective case (me, us, him, her, them, whom) is used when the pronoun receives the action or follows a preposition. Possessive case: my, mine, our, ours, his, her, hers, their, theirs, its.",
+              "formula": "Preposition (Between / For / To) + Pronoun -> Objective Case [me / him / her / them]"
+            },
+            {
+              "title": "Comparisons and Who vs Whom",
+              "note": "JAMB sets traps with 'than' and 'as' (he is taller than I, not me) and with prepositions (between you and me, not between you and I). Use 'who' when the pronoun is the subject of the verb and 'whom' when it is the object.",
+              "formula": "Than / As + Pronoun -> Subjective Case [I / he / she / they] + (implied verb) | Who = subject, Whom = object"
+            }
+          ],
+          "mnemonics": [
+            {
+              "acronym": "MASK",
+              "meaning": "The M-A-S-K Rule",
+              "breakdown": [
+                "M - Match the antecedent",
+                "A - Anchor prepositions to objectives",
+                "S - Subjectives for actions",
+                "K - Keep cases parallel"
+              ]
+            }
+          ],
+          "flashcards": [
+            {"front": "Pronoun Case", "back": "The form a pronoun takes based on its grammatical role as a subject, object, or possessor."},
+            {"front": "Subjective Case", "back": "Pronoun forms (I, we, he, she, they, who) used as the subject of a verb."},
+            {"front": "Objective Case", "back": "Pronoun forms (me, us, him, her, them, whom) used as direct/indirect objects or after prepositions."},
+            {"front": "Possessive Pronoun", "back": "Forms like mine, ours, his, hers, theirs that show ownership independently without following a noun."},
+            {"front": "Pronoun Antecedent", "back": "The original noun or noun phrase that a pronoun refers back to and replaces."},
+            {"front": "Prepositional Trap Formula", "back": "Preposition + Pronoun1 + and + Pronoun2 -> Both pronouns must be in the objective case (between you and me)."},
+            {"front": "Comparative Case Shift", "back": "Subject + Verb + Adjective-er + than + Subjective Pronoun (e.g., He runs faster than I)."},
+            {"front": "Reflexive Pronoun Limit", "back": "Pronouns ending in -self or -selves; they cannot be used as subjects without an accompanying noun or pronoun."},
+            {"front": "'Who' Selection Rule", "back": "Use who if the pronoun acts as the subject of the following verb (replaceable by he/they)."},
+            {"front": "'Whom' Selection Rule", "back": "Use whom if the pronoun acts as the object of a verb or preposition (replaceable by him/them)."},
+            {"front": "Indefinite Pronoun Agreement", "back": "Words like someone, anyone, everyone require singular pronouns for agreement in formal syntax."},
+            {"front": "Relative Pronoun Case", "back": "Selecting who, whom, whose, or which based on its structural role inside a relative clause."},
+            {"front": "Case Parallelism", "back": "Keeping pronoun cases consistent when linking them across coordinate conjunctions."},
+            {"front": "'Its' vs. 'It's' Distinction", "back": "Its (no apostrophe) is possessive; It's (with apostrophe) is a contraction for it is or it has."},
+            {"front": "Demonstrative Modifiers", "back": "Matching this/that with singular nouns and these/those with plural nouns."},
+            {"front": "Reciprocal Pronouns", "back": "Each other (used for two people) and one another (used for three or more people)."},
+            {"front": "Generic Pronoun 'One'", "back": "If a sentence starts with the generic subject one, it must use one's or one throughout the sentence."},
+            {"front": "Pronoun Person Agreement", "back": "Avoiding sudden shifts between first person (I), second person (you), and third person (he/she/they)."},
+            {"front": "Objective Case Appositive", "back": "Shifting pronouns to the objective case when they modify an object noun in apposition (e.g., He scolded us, the students)."},
+            {"front": "Gerund Possessive Modifier", "back": "A noun or pronoun modifying a gerund (-ing noun) must be in the possessive case (e.g., I dislike his coming late)."}
+          ]
+        },
+        {
+          "topic_id": "jamb_eng_s2_t6",
+          "archived": false,
+          "title": "Adjective Order (OSASCOMP) & Modifier Pitfalls",
+          "summary": "This topic covers the fixed order of adjectives before a noun (OSASCOMP) and common modifier mistakes like double comparatives and dangling modifiers.",
+          "exam_tip": "Write OSASCOMP on your scratch paper as soon as the exam starts. For adjective order questions, do not read the options aloud to see how they sound. Check the adjectives against the letters of the formula to find the correct order.",
+          "analogy": "Adjective order is like an airport boarding queue. No matter how creative an adjective is, it must stand in its assigned position. Opinion adjectives board first, while Material and Purpose adjectives board last, right next to the noun.",
+          "sub_topics": [
+            {
+              "title": "The OSASCOMP Order",
+              "note": "When several adjectives describe one noun, they follow this order: 1. Opinion (beautiful, ugly), 2. Size (large, tiny), 3. Age (old, modern), 4. Shape (round, square), 5. Colour (black, reddish), 6. Origin (Nigerian, British), 7. Material (wooden, metallic), 8. Purpose (cooking, sewing). JAMB gives options with scrambled orders.",
+              "formula": "Opinion -> Size -> Age -> Shape -> Colour -> Origin -> Material -> Purpose -> Noun"
+            },
+            {
+              "title": "Modifier Pitfalls",
+              "note": "Avoid double comparatives (more taller is wrong; say taller). Fix dangling modifiers, where an opening descriptive phrase is not attached to its true subject. Example fix: 'Walking home, I saw a snake' instead of 'Walking home, a snake was seen'.",
+              "formula": "Dangling Modifier Fix: Opening Phrase (Action) + comma + True Subject Doing That Action"
+            }
+          ],
+          "mnemonics": [
+            {
+              "acronym": "OSASCOMP",
+              "meaning": "The OSASCOMP Matrix",
+              "breakdown": [
+                "O - Opinion",
+                "S - Size",
+                "A - Age",
+                "S - Shape",
+                "C - Colour",
+                "O - Origin",
+                "M - Material",
+                "P - Purpose"
+              ]
+            }
+          ],
+          "flashcards": [
+            {"front": "Adjective Order", "back": "The mandatory grammatical sequence used when multiple descriptive modifiers precede a noun."},
+            {"front": "Opinion Adjective Position", "back": "Subjective judgments (charming, horrible) always occupy the first slot in the sequence."},
+            {"front": "Size Adjective Position", "back": "Physical dimensions (mammoth, microscopic) occupy the second slot in the sequence."},
+            {"front": "Age Adjective Position", "back": "Temporal status (antique, contemporary) occupies the third slot in the sequence."},
+            {"front": "Shape Adjective Position", "back": "Geometric forms (cylindrical, spherical) occupy the fourth slot in the sequence."},
+            {"front": "Colour Adjective Position", "back": "Visual hues (crimson, translucent) occupy the fifth slot in the sequence."},
+            {"front": "Origin Adjective Position", "back": "Geographic or cultural source (Ghanaian, European) occupies the sixth slot in the sequence."},
+            {"front": "Material Adjective Position", "back": "The physical substance an object is made of (plastic, woolen) occupies the seventh slot, sitting close to the noun."},
+            {"front": "Purpose Adjective Position", "back": "The designated function of an item (dining, tracking) occupies the final slot right before the noun."},
+            {"front": "Dangling Modifier Trap", "back": "A descriptive opening phrase that accidentally modifies the wrong noun due to incorrect sentence layout."},
+            {"front": "Misplaced Modifier", "back": "A modifier placed too far from the word it describes, making the sentence ambiguous or confusing."},
+            {"front": "Double Comparative Limit", "back": "A grammatical error caused by pairing the modifier more with an adjective that already ends in -er (e.g., more faster)."},
+            {"front": "Absolute Adjectives", "back": "Adjectives like unique, dead, perfect that cannot be graded or compared using more or most."},
+            {"front": "Adverbial Placement Rules", "back": "Correctly positioning adverbs of frequency, manner, and place so they don't break up cohesive verb phrases."},
+            {"front": "Comparative Degree", "back": "Modifying an adjective to compare two entities, using either an -er suffix or the word more."},
+            {"front": "Superlative Degree", "back": "Modifying an adjective to compare three or more entities, using either an -est suffix or the word most."},
+            {"front": "Gradable Adjectives", "back": "Adjectives describing qualities that can exist in different intensities, allowing them to pair with modifiers like very."},
+            {"front": "Compound Adjectives", "back": "Multi-word modifiers joined by hyphens when they appear before a noun (e.g., a well-known author)."},
+            {"front": "Predicate Adjectives", "back": "Adjectives placed after a linking verb that modify the subject without sitting directly before it."},
+            {"front": "Participial Adjectives", "back": "Verb forms ending in -ed or -ing that function structurally as descriptive adjectives."}
+          ]
+        },
+        {
+          "topic_id": "jamb_eng_s2_t7",
+          "archived": false,
+          "title": "Prepositional Monopolies & Phrasal Collocations",
+          "summary": "This topic covers verbs, adjectives and idioms that must go with one particular preposition, and phrasal verbs whose meaning changes with the preposition.",
+          "exam_tip": "Watch the word 'prefer'. JAMB tempts you with 'than' (I prefer tea than coffee). The rule is absolute: prefer pairs only with 'to' (I prefer tea to coffee). The same applies to adjectives ending in -ior, such as superior to and inferior to.",
+          "analogy": "Prepositional monopolies are like arranged marriages in grammar. The verb and its preposition are bound together by convention. No matter how much another preposition seems to fit, you cannot break up the pair.",
+          "sub_topics": [
+            {
+              "title": "Fixed Verb and Preposition Pairs",
+              "note": "Some verbs, adjectives and idioms must pair with one specific preposition. In formal British English you congratulate someone ON an achievement (never for), you are good AT an activity (not in), and you comply WITH a directive (not to). JAMB also tests wrong prepositions that come from local speech patterns.",
+              "formula": "Congratulate -> on | Prefer -> to | Abstain -> from | Comply -> with | Adhere -> to"
+            },
+            {
+              "title": "Phrasal Verbs",
+              "note": "Phrasal verbs change meaning completely depending on the word attached to the verb, for example break down, break up and break off all mean different things. Always check the meaning of the full phrase, not just the root verb.",
+              "formula": "Base Verb + Mandated Preposition Partner = Grammatical Collocation"
+            }
+          ],
+          "mnemonics": [
+            {
+              "acronym": "PAIR",
+              "meaning": "The P-A-I-R Guide",
+              "breakdown": [
+                "P - Prepositional monopolies",
+                "A - Always verify phrasal shifts",
+                "I - Idiomatic accuracy",
+                "R - Reject local speech patterns"
+              ]
+            }
+          ],
+          "flashcards": [
+            {"front": "Prepositional Monopoly", "back": "Fixed structural pairings where a specific noun, verb, or adjective commands one particular preposition."},
+            {"front": "'Congratulate' Collocation", "back": "Must always pair with the preposition on (e.g., I congratulate you on your graduation)."},
+            {"front": "'Prefer' Prepositional Pair", "back": "Must always pair with the preposition to when comparing choices (never use than)."},
+            {"front": "'Abstain' Collocation", "back": "Must always pair with the preposition from (e.g., abstain from voting)."},
+            {"front": "Phrasal Verb Engine", "back": "An idiomatic phrase combining a verb with a preposition or adverb to create a brand-new meaning."},
+            {"front": "'Comply' Collocation", "back": "Must always pair with the preposition with (never use to)."},
+            {"front": "'Adhere' Collocation", "back": "Must always pair with the preposition to (e.g., adhere to regulations)."},
+            {"front": "'-ior' Adjective Rule", "back": "Adjectives like superior, inferior, senior, junior require the preposition to instead of than."},
+            {"front": "'Accuse' Collocation", "back": "Must always pair with the preposition of (e.g., accused of theft; never use for)."},
+            {"front": "'Blame' Structural Shifts", "back": "You either blame something on someone, or you blame someone for something."},
+            {"front": "Prepositions of Place", "back": "Selecting at for precise points and in for enclosed geographic boundaries or areas."},
+            {"front": "Prepositions of Time", "back": "Selecting at for precise hours, on for specific days/dates, and in for months/years."},
+            {"front": "'Angry' Preposition Split", "back": "You are angry with a person, but angry at an action, object, or situation."},
+            {"front": "'Familiar' Preposition Split", "back": "A person is familiar with a topic, but a topic is familiar to a person."},
+            {"front": "'Incorporate' Collocation", "back": "Must always pair with the preposition into (e.g., incorporated into the system)."},
+            {"front": "Preposition at Clause End", "back": "Standard syntax accepts ending relative clauses with prepositions (e.g., the house he lived in)."},
+            {"front": "'Deprive' Collocation", "back": "Must always pair with the preposition of (e.g., deprived of his rights)."},
+            {"front": "'Immune' Collocation", "back": "Must always pair with the preposition to (e.g., immune to the disease)."},
+            {"front": "Phrasal Verb: 'Break down'", "back": "Idiom meaning to lose emotional control, or for a mechanical vehicle to stop working."},
+            {"front": "Phrasal Verb: 'Bring about'", "back": "Idiom meaning to cause an event to happen or to introduce a change."}
+          ]
+        },
+        {
+          "topic_id": "jamb_eng_s2_t8",
+          "archived": false,
+          "title": "Lexical Registers: Technical Vocabulary Domains",
+          "summary": "This topic covers words that belong to particular fields such as law, medicine, business, politics, media, science and farming, and choosing the exact technical term for the topic.",
+          "exam_tip": "If a Cloze passage is about business or banking and the blank describes money paid to shareholders, options like profit, gain or allocation are distractors. Pick the exact financial term: dividend.",
+          "analogy": "Lexical registers are like uniforms for different professions. A doctor does not wear a judge's wig to surgery, and a lawyer does not carry a stethoscope to court. Your word choice must wear the uniform the passage's topic demands.",
+          "sub_topics": [
+            {
+              "title": "The Seven Registers",
+              "note": "JAMB tests words that belong to particular fields. The seven main registers are: 1. Legal (plaintiff, defendant, subpoena, litigation, affidavit). 2. Medical (prognosis, diagnosis, acute, chronic, outpatient). 3. Commercial/Financial (dividend, liabilities, asset, inflation, revenue). 4. Political/Administrative (franchise, bureaucracy, constituency, incumbent). 5. Journalism/Media (editorial, censorship, libel, syndication). 6. Scientific/Technological (hypothesis, empirical, systemic, syntax). 7. Agricultural (silage, arable, fallow, husbandry, pastoral).",
+              "formula": "Passage Subject (e.g. Court Case) -> Filter Options -> Choose the Strict Legal Register Term"
+            },
+            {
+              "title": "Technical Term vs Generic Word",
+              "note": "In Cloze tests and lexis questions, general descriptions are wrong. You must choose the specific technical word that fits the field. For example, pick 'verdict' instead of the general word 'decision' in a court passage.",
+              "formula": "Generic Word Trap is not equal to Technical Register Term"
+            }
+          ],
+          "mnemonics": [
+            {
+              "acronym": "DOMAIN",
+              "meaning": "The D-O-M-A-I-N Filter",
+              "breakdown": [
+                "D - Detect the subject field",
+                "O - Optimize technical words",
+                "M - Match precise definitions",
+                "A - Avoid generic terms",
+                "I - Isolate context",
+                "N - Note collocations"
+              ]
+            }
+          ],
+          "flashcards": [
+            {"front": "Lexical Register", "back": "A specialized variety of vocabulary and phrasing used within a specific profession, science, or social domain."},
+            {"front": "Plaintiff (Legal)", "back": "The party or individual who initiates a lawsuit against a defendant in a court of law."},
+            {"front": "Subpoena (Legal)", "back": "A formal, legally binding written order commanding a witness to appear and testify in court."},
+            {"front": "Prognosis (Medical)", "back": "A medical doctor's professional forecast or prediction regarding the likely course and outcome of a disease."},
+            {"front": "Chronic (Medical)", "back": "A medical condition or illness that persists over a long duration and is difficult to cure completely."},
+            {"front": "Dividend (Commercial)", "back": "A portion of a corporation's earnings distributed directly to its shareholders based on ownership."},
+            {"front": "Liabilities (Commercial)", "back": "The financial debts, obligations, or legal responsibilities owed by a business entity to outside parties."},
+            {"front": "Franchise (Political)", "back": "The constitutional right or privilege granted to citizens to cast their votes in public elections."},
+            {"front": "Incumbent (Political)", "back": "The official who currently holds an elected political office during an active election cycle."},
+            {"front": "Libel (Media)", "back": "A false, malicious published written statement that damages a person's reputation."},
+            {"front": "Editorial (Media)", "back": "An opinion article written by the senior staff or editor of a newspaper reflecting its official stance."},
+            {"front": "Empirical (Scientific)", "back": "Information, verification, or knowledge derived directly from systematic observation or experiment."},
+            {"front": "Arable (Agricultural)", "back": "Land that is naturally suitable or cleared for plowing and cultivating crops."},
+            {"front": "Fallow (Agricultural)", "back": "Cultivated land that is deliberately left unseeded for a season to regenerate its soil nutrients."},
+            {"front": "Affidavit (Legal)", "back": "A formal, written statement of facts confirmed by the oath of the party making it before a legal authority."},
+            {"front": "Acute (Medical)", "back": "A medical condition or symptom that begins suddenly, is severe, but lasts for a short duration."},
+            {"front": "Assets (Commercial)", "back": "Valuable items, property, or resources owned by an individual or corporation that hold economic worth."},
+            {"front": "Bureaucracy (Political)", "back": "A complex administrative system marked by rigid hierarchies, fixed procedures, and red tape."},
+            {"front": "Silage (Agricultural)", "back": "Green forage or fodder that is preserved through fermentation inside a silo to feed livestock during winter or dry seasons."},
+            {"front": "Syndication (Media)", "back": "Licensing and selling media content, articles, or broadcasts to multiple independent media outlets simultaneously."}
+          ]
+        },
+        {
+          "topic_id": "jamb_eng_s2_t9",
+          "archived": false,
+          "title": "Idioms, Synonyms & Antonyms in Context",
+          "summary": "This topic covers working out the meaning of words and idioms from the sentence they are in, and finding words with the same or opposite meaning.",
+          "exam_tip": "If an idiom question asks about 'to kick the bucket' or 'to smell a rat', cross out choices about actual buckets, water, rodents or smells. The correct answer is always the figurative meaning (death, or suspecting trickery).",
+          "analogy": "Words are like chameleons: they change colour based on the branch they sit on. 'Draw' means sketch in an art class, pull out a weapon in a cowboy standoff, and a tied score at a football match. Never judge a word until you check its background.",
+          "sub_topics": [
+            {
+              "title": "Context Decides Meaning",
+              "note": "JAMB tests your ability to interpret words and phrases in context. An underlined word may have a common dictionary meaning, but the sentence can change that meaning completely. Context overrides the general definition.",
+              "formula": "Correct Contextual Option = Substitution Check Passes Without Changing Sentence Tone or Grammar"
+            },
+            {
+              "title": "Idiomatic Expressions",
+              "note": "An idiom cannot be understood from the literal meaning of its words. JAMB often puts a very literal meaning as bait, usually in Option A or B, to catch unprepared students. Choose the figurative explanation.",
+              "formula": "Idiomatic Expression is not equal to the Literal Sum of Its Words"
+            }
+          ],
+          "mnemonics": [
+            {
+              "acronym": "SWAP",
+              "meaning": "The S-W-A-P Test",
+              "breakdown": [
+                "S - Substitute option words",
+                "W - Watch context tone",
+                "A - Avoid literal traps in idioms",
+                "P - Pinpoint matching parts of speech"
+              ]
+            }
+          ],
+          "flashcards": [
+            {"front": "Contextual Lexis", "back": "Choosing synonyms or antonyms based entirely on how a word functions inside a specific sentence."},
+            {"front": "Idiomatic Expression", "back": "A fixed group of words carrying a figurative meaning that cannot be deduced from the literal definitions of the individual words."},
+            {"front": "'Bury the hatchet'", "back": "An idiomatic expression meaning to settle an argument, forgive a grudge, and make peace."},
+            {"front": "'Spill the beans'", "back": "An idiomatic expression meaning to reveal a secret prematurely or indiscreetly."},
+            {"front": "Transient Synonym", "back": "Words like fleeting, ephemeral, temporary that show something lasts for only a brief moment."},
+            {"front": "Transient Antonym", "back": "Words like permanent, enduring, perpetual showing something lasts indefinitely."},
+            {"front": "'Take with a grain of salt'", "back": "An idiom meaning to view a statement with skepticism and not accept it as absolute truth."},
+            {"front": "'Burn the midnight oil'", "back": "An idiomatic expression meaning to work, study, or read late into the night."},
+            {"front": "Homonyms", "back": "Words that share the same spelling or sound but carry entirely different meanings (bank of a river vs. money bank)."},
+            {"front": "Figurative Substitution", "back": "Replacing an underlined idiomatic phrase with a single concise word that preserves the message."},
+            {"front": "'Call it a day'", "back": "An idiomatic expression meaning to stop working on an activity for the rest of the daytime."},
+            {"front": "'Through thick and thin'", "back": "An idiomatic expression meaning to stay loyal through all challenges, hardships, and good times."},
+            {"front": "Mitigate Synonym", "back": "Words like alleviate, ease, lessen, assuage that mean to reduce the severity of something."},
+            {"front": "Mitigate Antonym", "back": "Words like aggravate, exacerbate, intensify that mean to make a situation worse."},
+            {"front": "'A wildcard' Idiom", "back": "An unpredictable factor, individual, or element that can completely alter an outcome."},
+            {"front": "'At the eleventh hour'", "back": "An idiomatic expression meaning an event happened at the last possible moment or right before a deadline."},
+            {"front": "Ostentatious Synonym", "back": "Words like showy, pretentious, gaudy, flamboyant that describe displaying wealth or status boastfully."},
+            {"front": "Ostentatious Antonym", "back": "Words like modest, humble, understated, reserved that describe a quiet, simple style."},
+            {"front": "'Beat around the bush'", "back": "An idiom meaning to speak indirectly and avoid addressing the core issue directly."},
+            {"front": "'Blessing in disguise'", "back": "An idiomatic expression for a misfortune that ultimately yields positive, beneficial results later on."}
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "jamb_eng_s3",
+      "section_title": "Section 3: Mechanics, Voice Transformations and Clauses",
+      "topics": [
+        {
+          "topic_id": "jamb_eng_s3_t1",
+          "archived": false,
+          "title": "Capitalization, Spelling Rules & Punctuation Mechanics",
+          "summary": "This topic covers apostrophes for possession, British versus American spelling, tricky spellings, and the difference between the semicolon and the colon.",
+          "exam_tip": "'Its' vs 'It's' is a guaranteed JAMB question. It's means 'it is' or 'it has'. Its shows possession. 'The dog wagged it's tail' is wrong; it must be 'its tail'. Possessive pronouns (ours, yours, theirs, its) never take an apostrophe. Also learn the double-letter words: Accommodation (two c, two m), Embarrassment (two r, two s), Harassment, Millennium, Committee.",
+          "analogy": "A semicolon is like a drop of heavy-duty superglue. It is stronger than a comma, which would cause a comma splice if used alone. The semicolon can fuse two full sentences together without needing and, but or because.",
+          "sub_topics": [
+            {
+              "title": "The Possession Apostrophe",
+              "note": "Singular nouns, and plural nouns not ending in -s, take 's (the child's book, the women's clinic). Plural nouns ending in -s take only a trailing apostrophe (the boys' hostel). For singular names ending in an s sound (Jesus, Moses), British English accepts either Jesus' disciples or Jesus's disciples, but JAMB prefers the trailing apostrophe for classical and historical names.",
+              "formula": "Singular + 's | Plural ending in -s + ' | Irregular plural (not ending in -s) + 's"
+            },
+            {
+              "title": "British vs American Spelling",
+              "note": "JAMB tests British English (UK) only, and American spellings are marked wrong. UK: Honour, Colour, Centre, Theatre, Programme, Dialogue, Travelling, Enrolment, Defence. US: Honor, Color, Center, Theater, Program, Dialog, Traveling, Enrollment, Defense.",
+              "formula": "UK: -our, -re, double l (travelled) | US: -or, -er, single l (traveled)"
+            },
+            {
+              "title": "Semicolon vs Colon",
+              "note": "A semicolon joins two closely related independent clauses without a joining word (The rain started; we ran inside). A colon introduces a list, an explanation or a direct quote after an independent clause (He bought three items: a book, a pen, and a bag).",
+              "formula": "Independent Clause ; Independent Clause | Independent Clause : List / Explanation / Quote"
+            }
+          ],
+          "mnemonics": [
+            {
+              "acronym": "I BEFORE E",
+              "meaning": "I before E, except after C",
+              "breakdown": [
+                "Use I before E: believe, relief",
+                "Except right after C: receive, deceive, ceiling",
+                "Or when it sounds like A: neighbour, weigh"
+              ]
+            },
+            {
+              "acronym": "COMPLIMENT",
+              "meaning": "The Compl-I-ment Double",
+              "breakdown": [
+                "Compliment with an I is something I like to hear (praise)",
+                "Complement with an E completes a set or extends something"
+              ]
+            }
+          ],
+          "flashcards": [
+            {"front": "Possessive Apostrophe (Singular Noun)", "back": "Singular Noun + 's (even if it ends in s, add 's for modern names). Example: James's car / The girl's book."},
+            {"front": "Possessive Apostrophe (Regular Plural Noun)", "back": "Plural Noun ending in -s + ' (apostrophe only). Example: The students' union / The teachers' lounge."},
+            {"front": "Possessive Apostrophe (Irregular Plural Noun)", "back": "Plural Noun not ending in -s + 's. Example: The children's playground / The women's wing."},
+            {"front": "Its vs. It's", "back": "It's = It is / It has | Its = Possessive (no apostrophe). Example: The bird hurt its wing (not it's)."},
+            {"front": "Spelling Trap: Accommodation", "back": "Must feature a double C and a double M: A-C-C-O-M-M-O-D-A-T-I-O-N."},
+            {"front": "Spelling Trap: Embarrassment", "back": "Must feature a double R and a double S: E-M-B-A-R-R-A-S-S-M-E-N-T."},
+            {"front": "Spelling Trap: Harassment", "back": "Features a single R but a double S: H-A-R-A-S-S-M-E-N-T (never double the R)."},
+            {"front": "Semicolon Function Rule", "back": "Connects two independent clauses without a coordinating conjunction. Example: He went to Lagos; she stayed in Ibadan."},
+            {"front": "Colon Function Rule", "back": "Independent Clause + : + List, Explanation, or Quote. Example: She ordered three fruits: apples, oranges, and grapes."},
+            {"front": "British Spelling: -our vs. -or", "back": "UK uses -our | US uses -or (JAMB strictly marks -our as correct). Examples: Labour, Behaviour, Vigour, Humour."},
+            {"front": "British Spelling: -re vs. -er", "back": "UK uses -re | US uses -er (JAMB strictly marks -re as correct). Examples: Centre, Theatre, Metre, Calibre."},
+            {"front": "British Spelling: Double L Modifier", "back": "Verbs ending in a single 'l' double it when adding suffixes starting with vowels in UK English. Examples: Travel -> Travelled, Travelling; Cancel -> Cancelled."},
+            {"front": "Stationary vs. Stationery", "back": "Stationery (with an 'e') = paper and pens | Stationary (with an 'a') = not moving. Example: He bought books at the stationery store. The car remained stationary."},
+            {"front": "Comma Splice Error", "back": "Joining two independent clauses with only a comma is grammatically incorrect. 'I am tired, I want to sleep' is wrong; 'I am tired; I want to sleep' is correct."},
+            {"front": "Hyphenation in Compound Modifiers", "back": "Use a hyphen when two or more words act as a single adjective before a noun. Example: A well-known headmaster (but: The headmaster is well known)."},
+            {"front": "Spelling Trap: Millennium", "back": "Must feature a double L and a double N: M-I-L-L-E-N-N-I-U-M."},
+            {"front": "Capitalization of Proper Adjectives", "back": "Adjectives derived from proper nouns must always be capitalized. Examples: The Nigerian economy, Shakespearean sonnets."},
+            {"front": "Punctuation with Quotation Marks", "back": "Under British style (traditional JAMB standard), punctuation sits outside quotation marks unless it belongs to the quote. Example: He described the exam as \"very easy\"."},
+            {"front": "Spelling Trap: Maintenance", "back": "Derived from maintain, but the spelling changes: M-A-I-N-T-E-N-A-N-C-E (not maintainance)."},
+            {"front": "Spelling Trap: Separation", "back": "Features an 'a' in the middle, not an 'e': S-E-P-A-R-A-T-I-O-N (not seperated)."}
+          ]
+        },
+        {
+          "topic_id": "jamb_eng_s3_t2",
+          "archived": false,
+          "title": "Voice Transformations & Rhetorical Structures",
+          "summary": "This topic covers changing sentences from active to passive voice and from direct speech to reported (indirect) speech without changing the meaning.",
+          "exam_tip": "In reported speech, watch for options that wrongly keep the word 'tomorrow'. Example: 'I will clear my desk tomorrow,' said John becomes: John said that he would clear his desk the next day. Also, when an active question starts with Who, the passive must start with 'By whom'.",
+          "analogy": "Reported speech is like being a news reporter describing an event from last week. You cannot use current time words. If the politician said 'I am building a road here today', you tell your audience that he said he was building a road there that day.",
+          "sub_topics": [
+            {
+              "title": "Active and Passive Voice",
+              "note": "In the active voice the subject performs the action (The boy killed the rat). In the passive voice the object becomes the subject, with a form of 'to be' + past participle (The rat was killed by the boy). Intransitive verbs (arrive, sleep, die) take no object, so they cannot be made passive. A 'Who' question becomes 'By whom' in the passive: Who broke the window? -> By whom was the window broken?",
+              "formula": "Subject + Verb + Object -> Object + [Be Verb] + Past Participle + [by Subject]"
+            },
+            {
+              "title": "Direct to Indirect Speech",
+              "note": "After a past tense reporting verb (He said...), three things change. Tense backshift: Simple Present -> Simple Past; Present Perfect or Simple Past -> Past Perfect; Will -> Would. Pronoun shift: I -> he/she; we -> they. Time and place words: here -> there; now -> then; tomorrow -> the next day; yesterday -> the previous day.",
+              "formula": "Can -> Could | May -> Might | Will -> Would | Must -> Had to | Now -> Then | Today -> That day | Have -> Had"
+            }
+          ],
+          "mnemonics": [
+            {
+              "acronym": "BACKSTEP",
+              "meaning": "The Direct-Indirect Backstep",
+              "breakdown": [
+                "Take one giant step backward in time when reporting someone's words",
+                "Now steps back to Then",
+                "Today steps back to That day",
+                "Have steps back to Had"
+              ]
+            }
+          ],
+          "flashcards": [
+            {"front": "Active to Passive Core Formula", "back": "Subject + Verb + Object -> Object + [Be Verb Form] + Past Participle + [by Subject]. Example: The dog bit the man -> The man was bitten by the dog."},
+            {"front": "Who to Passive Transformation", "back": "Who + Active Verb...? -> By whom + Auxiliary Verb + Object + Past Participle? Example: Who wrote the poem? -> By whom was the poem written?"},
+            {"front": "Reported Speech: Simple Present Shift", "back": "Direct Simple Present -> Indirect Simple Past. Example: 'I love football,' he said -> He said that he loved football."},
+            {"front": "Reported Speech: Present Perfect Shift", "back": "Direct Present Perfect -> Indirect Past Perfect. Example: 'I have finished,' she said -> She said that she had finished."},
+            {"front": "Reported Speech: Simple Past Shift", "back": "Direct Simple Past -> Indirect Past Perfect (a JAMB favourite). Example: 'I bought a book yesterday,' he said -> He said he had bought a book the previous day."},
+            {"front": "Adverbial Time Shift: Tomorrow", "back": "Direct: Tomorrow -> Indirect: The next day or The following day. Example: 'We will leave tomorrow' -> They said they would leave the next day."},
+            {"front": "Adverbial Time Shift: Yesterday", "back": "Direct: Yesterday -> Indirect: The previous day or The day before. Example: 'I ran yesterday' -> He said he had run the previous day."},
+            {"front": "Reported Speech Modal Shift", "back": "Can -> Could | May -> Might | Will -> Would | Must -> Had to. Example: 'You must go' -> He told me that I had to go."},
+            {"front": "Intransitive Passive Prohibition", "back": "Intransitive verbs cannot take a passive form because they lack objects. Example: 'He died peacefully' cannot be made passive."},
+            {"front": "Reported Questions (Wh- Questions)", "back": "Indirect wh- questions keep the question word but drop the inversion (subject before verb, no do/did). Example: 'Where do you live?' -> He asked me where I lived (not where did I live)."},
+            {"front": "Reported Questions (Yes/No)", "back": "Add if or whether before the clause. Example: 'Are you coming?' -> He asked whether I was coming."},
+            {"front": "Universal Truth Reporting Shield", "back": "If the direct statement is an ongoing universal truth, do not shift the tense backward. Example: 'The sun is hot,' he said -> He said that the sun is (not was) hot."},
+            {"front": "Passive Voice with Dual Objects", "back": "Either the direct object or the indirect object can become the new passive subject. Example: He gave me a pen -> A pen was given to me OR I was given a pen."},
+            {"front": "Reported Imperatives (Commands)", "back": "Reporting Verb (ordered/told) + Object + Infinitive Phrase (to + verb). Example: 'Sit down!' -> The teacher ordered the students to sit down."},
+            {"front": "Negative Imperative Reporting", "back": "Change 'Don't + Verb' to 'not to + verb'. Example: 'Don't touch it,' he said -> He warned me not to touch it."},
+            {"front": "Passive Voice without the Doer", "back": "Used when the agent performing the action is unknown or obvious. Example: The thief was arrested (by the police is understood)."},
+            {"front": "Say vs. Tell in Reported Speech", "back": "Tell must be followed immediately by a personal object; Say does not take a personal object directly unless using 'to'. Example: He told me that he was tired; He said that he was tired."},
+            {"front": "Reported Speech: Past Perfect Retention", "back": "Direct Past Perfect sentences cannot shift further back; they remain past perfect. Example: 'I had left before they arrived' -> He said he had left before they arrived."},
+            {"front": "Passive Voice for Suggestions", "back": "Suggest + that + Object + should be + Past Participle. Example: He suggested building a school -> He suggested that a school should be built."},
+            {"front": "Reported Exclamations", "back": "Exclamatory sentences convert into clauses using words like exclaimed with joy/sorrow. Example: 'Alas! I failed,' he said -> He exclaimed sorrowfully that he had failed."}
+          ]
+        },
+        {
+          "topic_id": "jamb_eng_s3_t3",
+          "archived": false,
+          "title": "Nominal, Adjectival & Adverbial Subordinate Clauses",
+          "summary": "This topic covers naming a phrase or clause and stating its job in the sentence: noun clauses, adjectival (relative) clauses and adverbial clauses of time, place, reason, condition, concession and more.",
+          "exam_tip": "JAMB wants a two-part answer: the grammatical name AND the function. For an adjectival clause, write 'It modifies the noun [name]'. For a nominal clause that is an object, write 'It is the object of the verb [name]'. Also, Although/Even though clauses are Concession (contrast), not Reason, even if 'Reason' is placed in Option A as bait.",
+          "analogy": "A sentence is like a theatre production, and nouns, adjectives and adverbs are actors. When one actor is tired, a whole group of words holding hands (a clause) steps onto the stage to play that role. In the noun's place, they act as a Noun Clause. Following a noun to describe it, they act as an Adjective Clause.",
+          "sub_topics": [
+            {
+              "title": "Phrase vs Clause, and Nominal Clauses",
+              "note": "A phrase is a group of words without a finite verb (in the morning). A clause has a subject and a finite verb (when the morning came). Nominal (noun) clauses work as nouns. They can be the subject of a verb ([What he said] surprised us) or the object of a verb (I know [that he is honest]).",
+              "formula": "Noun Clause Test: replace the clause with 'it'. If the sentence still makes sense, it is a Nominal Clause."
+            },
+            {
+              "title": "Adjectival (Relative) Clauses",
+              "note": "Adjectival clauses modify a noun or pronoun that comes before them. They almost always begin with who, which, whose, that or whom. Example: The boy [who stole the money] has been caught. The clause modifies the noun 'boy'.",
+              "formula": "Noun + [Relative Pronoun Clause] -> modifies the noun directly to its left"
+            },
+            {
+              "title": "Adverbial Clauses",
+              "note": "Adverbial clauses modify verbs, adjectives or adverbs, telling when, where, why, how or under what condition something happened. Time: He left [when the bell rang]. Concession: She passed [although she didn't study hard].",
+              "formula": "Time: when, while, before, after | Concession: although, though | Condition: if, unless | Reason: because, since, as | Place: where | Manner: as if | Purpose: so that, lest | Result: so...that | Comparison: than"
+            }
+          ],
+          "mnemonics": [
+            {
+              "acronym": "NOUN TEST",
+              "meaning": "The Noun Test (Which or What)",
+              "breakdown": [
+                "If you can replace the whole underlined clause with IT or THAT and the sentence still makes sense",
+                "Then it is a Nominal (Noun) Clause"
+              ]
+            },
+            {
+              "acronym": "ARROW",
+              "meaning": "The Adjective Arrow",
+              "breakdown": [
+                "An adjectival clause acts like an arrow",
+                "The relative pronoun (who/which) points directly to the noun sitting immediately to its left"
+              ]
+            }
+          ],
+          "flashcards": [
+            {"front": "Noun Clause as Subject Function", "back": "[What/That Clause] + Main Verb + Extension. Example: What he did annoyed the teacher. (Noun Clause | Subject of the verb annoyed)."},
+            {"front": "Noun Clause as Object Function", "back": "Subject + Transitive Verb + [What/That Clause]. Example: She believes that you are innocent. (Noun Clause | Object of the verb believes)."},
+            {"front": "Adjectival Clause Core Structure", "back": "Noun + [Relative Pronoun Clause]. Example: The lady who spoke to us is our principal. (Adjectival Clause | Modifies the noun lady)."},
+            {"front": "Adverbial Clause of Time", "back": "Clause introduced by when, while, before, after, as soon as. Example: We stood up when the governor walked in. (Adverbial Clause of Time | Modifies the verb stood up)."},
+            {"front": "Adverbial Clause of Concession", "back": "Clause introducing a contrast via although, even though, though, whereas. Example: He failed although he studied hard. (Adverbial Clause of Concession | Modifies the verb failed)."},
+            {"front": "Adverbial Clause of Condition", "back": "Clause introducing a dependency via if, unless, provided that. Example: You will fail unless you study. (Adverbial Clause of Condition | Modifies the verb will fail)."},
+            {"front": "Adverbial Clause of Reason/Cause", "back": "Clause introduced by because, since, as. Example: He stayed home because he was ill. (Adverbial Clause of Reason | Modifies the verb stayed)."},
+            {"front": "Phrase vs. Clause Finite Test", "back": "Phrase = no finite verb | Clause = contains a finite verb. Example: In the dark room (Phrase) vs. Because the room was dark (Clause)."},
+            {"front": "Adjectival Clause with 'Which'", "back": "Modifies an inanimate noun directly to its left. Example: The book which I bought is lost. (Adjectival Clause | Modifies the noun book)."},
+            {"front": "Noun Clause Object of Preposition", "back": "Preposition + [Noun Clause]. Example: Pay close attention to what the instructor says. (Noun Clause | Object of the preposition to)."},
+            {"front": "Adverbial Clause of Place", "back": "Clause introduced by where or wherever. Example: Put the key where you found it. (Adverbial Clause of Place | Modifies the verb put)."},
+            {"front": "Adverbial Clause of Manner", "back": "Clause introduced by as if, as though, as. Example: He ran as if a lion were chasing him. (Adverbial Clause of Manner | Modifies the verb ran)."},
+            {"front": "Adverbial Clause of Purpose", "back": "Clause introduced by so that, in order that, lest. Example: Study hard so that you can score high. (Adverbial Clause of Purpose | Modifies the verb study)."},
+            {"front": "Adverbial Clause of Result/Consequence", "back": "Clause introduced by so...that or such...that. Example: He was so weak that he fainted. (Adverbial Clause of Result | Modifies the adjective weak)."},
+            {"front": "Noun Clause as Complement of Subject", "back": "Subject + Linking Verb (is/was) + [Noun Clause]. Example: The truth is that he stole it. (Noun Clause | Complement of the subject truth)."},
+            {"front": "Relative Pronoun Omission Trick", "back": "JAMB will delete the word whom or that to hide an adjectival clause. Example: The man [I saw] is here (short for The man whom I saw). It still functions as an adjectival clause modifying man."},
+            {"front": "The Noun Clause Substitution Rule", "back": "Replace the clause with 'it'. If valid, it is a Noun Clause. Example: [What he saw] was scary -> It was scary. (Confirmed: Noun Clause)."},
+            {"front": "Adverbial Clause of Comparison", "back": "Introduced by than or as...as. Example: She sings better than her sister does. (Adverbial Clause of Comparison | Modifies the adverb better)."},
+            {"front": "Noun Clause in Apposition", "back": "Explains or renames a noun directly preceding it, usually separated by commas. Example: The news, that the plane crashed, shocked everyone. (Noun Clause | In apposition to the noun news)."},
+            {"front": "Adverbial Clause with 'Lest' Constraint", "back": "Lest means 'for fear that' and must be followed by a base verb or should (never use will/not). Example: Run fast lest you should miss the bus. (Adverbial Clause of Purpose | Modifies the verb run)."}
+          ]
+        }
+      ]
+    }
+  ]
+}
