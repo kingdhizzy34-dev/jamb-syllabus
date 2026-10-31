@@ -1,0 +1,187 @@
+{
+  "exam_body": "JAMB",
+  "subject_name": "Use of English",
+  "sections": [
+    {
+      "section_title": "Section 1: Lexis and Structure",
+      "topics": [
+        {
+          "topic_id": "jamb_eng_s1_t1",
+          "title": "Synonyms and Antonyms",
+          "summary": "This topic governs selecting words nearest in meaning (synonyms) or opposite in meaning (antonyms) based strictly on contextual usage within sentences.",
+          "exam_tip": "Never choose an option based on its abstract dictionary entry alone. Read the sentence context to see if the word is used in a figurative, ironic, or idiomatic sense.",
+          "analogy": "Words are like chameleons: they shift their true colors and definitions depending on the semantic environment they sit in.",
+          "sub_topics": [
+            {
+              "title": "Contextual Semantic Clues",
+              "note": "Synonyms in JAMB are tested to judge vocabulary breadth. A single lexical item can possess multiple denotative meanings, but its *contextual variant* is locked by surrounding parts of speech. Look out for structural markers like contrastive conjunctions or parallel clauses to infer the definition of unfamiliar vocabulary."
+            },
+            {
+              "title": "Antonyms and Contrasting Shifts",
+              "note": "Antonym questions demand tracking down the word most directly opposite in meaning. Examiners intentionally include options that are partial opposites or opposites to alternative definitions of the word. Isolate whether the target word functions as a verb, noun, or adjective before selecting its polar opposite."
+            }
+          ],
+          "flashcards": [
+            {
+              "front": "What is the distinction between denotation and connotation?",
+              "back": "Denotation is the literal, explicit dictionary definition of a word, while connotation is the emotional or cultural shading attached to it."
+            }
+          ],
+          "mnemonics": [
+            {
+              "acronym": "SAC",
+              "meaning": "Context Resolution Protocol",
+              "breakdown": [
+                "S - Scan surrounding clauses for hidden hints",
+                "A - Analyze the parts of speech framework",
+                "C - Choose the option that fits the exact slot smoothly"
+              ]
+            }
+          ]
+        },
+        {
+          "topic_id": "jamb_eng_s1_t2",
+          "title": "Idiomatic Expressions and Cloze Tests",
+          "summary": "This topic covers phrases whose meaning cannot be deduced from literal definitions of individual component words, alongside structural text passage completion tasks.",
+          "exam_tip": "If an idiomatic option sounds completely literal or references physical objects mentioned in the prompt, reject it instantly. It is an examiner trap.",
+          "analogy": "An idiom is like an encrypted security code: you cannot understand the message by looking at the numbers individually; you must decrypt the complete block together.",
+          "sub_topics": [
+            {
+              "title": "Decoding Idiomatic Anchors",
+              "note": "Idioms are deeply rooted in cultural and historical usage. Phrases like *to take something with a grain of salt* or *to grease someone's palm* have fixed figurative definitions. JAMB tests your ability to match these expressions with their correct situational application."
+            },
+            {
+              "title": "Cloze Text System Mechanics",
+              "note": "Cloze tests present a full reading passage with strategic blanks. This does not just test vocabulary; it tests structural coherence. The missing word might depend on a preposition coming four words later (e.g., matching *comply* with *with* or *adhere* with *to*)."
+            }
+          ],
+          "flashcards": [
+            {
+              "front": "What does the idiom 'to burn the midnight oil' mean?",
+              "back": "It means to work or study late into the night."
+            }
+          ],
+          "mnemonics": [
+            {
+              "acronym": "CPC",
+              "meaning": "Cloze Passage Solving Chain",
+              "breakdown": [
+                "P - Read the complete paragraph before picking anything",
+                "C - Check structural prepositions running past the blank",
+                "C - Choose the option that maintains logical text flow"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_title": "Section 2: Grammatical Structures",
+      "topics": [
+        {
+          "topic_id": "jamb_eng_s2_t1",
+          "title": "Subject-Verb Agreement (Concord)",
+          "summary": "This topic governs the rigid structural matching rules between singular or plural subjects and their corresponding verb forms.",
+          "exam_tip": "Ignore parenthetical expressions or phrases starting with 'as well as', 'together with', or 'alongside' when deciding the verb form. Look strictly at the primary subject.",
+          "analogy": "Concord rules work exactly like gears in a mechanical clock: a singular teeth profile demands a singular interlocking wheel to keep the mechanism balanced.",
+          "sub_topics": [
+            {
+              "title": "Proximity and Correlative Concord",
+              "note": "When sentence structures deploy correlative conjunctions like *either...or* or *neither...nor*, the proximity rule applies. The verb form is dictated entirely by the subject *closest* to it in space. If the closer subject is plural, the verb must be plural; if singular, the verb must be singular."
+            },
+            {
+              "title": "Many-a and Indefinite Pronoun Rules",
+              "note": "Expressions starting with *Many a* are always structurally followed by a singular noun and a singular verb form (e.g., *Many a student has failed*). Indefinite pronouns like *each*, *every*, *everyone*, and *anybody* also demand singular verbs, regardless of modifications."
+            }
+          ],
+          "flashcards": [
+            {
+              "front": "Which subject dictates the verb in a 'Neither... nor' sentence structure?",
+              "back": "The subject structurally closest to the verb determines its form."
+            }
+          ],
+          "mnemonics": [
+            {
+              "acronym": "MAN",
+              "meaning": "Singular Concord Triggers",
+              "breakdown": [
+                "M - Many a... phrases",
+                "A - Anyone / Anybody / Anything",
+                "N - Neither of the... singular default setups"
+              ]
+            }
+          ]
+        },
+        {
+          "topic_id": "jamb_eng_s2_t2",
+          "title": "Tense, Aspect, and Modal Auxiliaries",
+          "summary": "This topic governs timeline placement expressions, habitual aspect tracking, conditional adjustments, and auxiliary modifications.",
+          "exam_tip": "Conditional structures using 'If I were...' (subjunctive mood) always demand the modal verb 'would', never 'will' or 'should'.",
+          "analogy": "Tense layouts operate like a digital timeline editor: you must lock down the anchor frame before adjusting actions running across parallel channels.",
+          "sub_topics": [
+            {
+              "title": "The Subjunctive Mood Shift",
+              "note": "The subjunctive mood expresses wishes, hypothetical conditions, or contrary-to-fact situations. It breaks standard concord constraints. It requires the plural past tense verb *were* even when paired with singular pronouns (e.g., *If he were here, he would testify*)."
+            }
+          ],
+          "flashcards": [
+            {
+              "front": "What is the past participle form of the verb 'hang' when describing execution?",
+              "back": "The correct form is 'hanged' (e.g., The criminal was hanged). For objects, it is 'hung'."
+            }
+          ],
+          "mnemonics": [
+            {
+              "acronym": "SWM",
+              "meaning": "Subjunctive Workflow",
+              "breakdown": [
+                "S - Spot hypothetical conditions or wishes",
+                "W - Force 'were' for all singular/plural pronouns",
+                "M - Match secondary clause with 'would'"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_title": "Section 3: Oral English & Sound Patterns",
+      "topics": [
+        {
+          "topic_id": "jamb_eng_s3_t1",
+          "title": "Vowels and Consonants Sounds",
+          "summary": "This topic examines phonetic competence across pure vowels (monophthongs), gliding vowels (diphthongs), and consonant parameters.",
+          "exam_tip": "Do not look at the spelling or letters of a word. Pronounce the word sub-vocally to trace the actual acoustic sound generated.",
+          "analogy": "Phonetic symbols are like musical notes: the spelling letters are just the keys on the piano, but the phonetic transcriptions are the actual pitches produced.",
+          "sub_topics": [
+            {
+              "title": "Monophthongs vs Diphthongs",
+              "note": "English features 20 distinct vowel sounds despite having only 5 vowel letters. Monophthongs are pure, single vowel positions (e.g., the short /ɪ/ in *sit* vs the long /i:/ in *seat*). Diphthongs involve a clean glide movement from one vowel position to another within a single syllable boundary (e.g., /aɪ/ in *my* or /eɪ/ in *take*)."
+            },
+            {
+              "title": "Consonant Cluster Simplifications",
+              "note": "Consonant parameters track voiced and voiceless pairings alongside silent letter traps. JAMB frequently tests silent letters where certain consonants disappear from acoustic pronunciation completely (e.g., the *b* in *comb*, the *k* in *knight*, or the *p* in *receipt*)."
+            }
+          ],
+          "flashcards": [
+            {
+"front": "How many vowel sounds exist in the English phonetic inventory?",
+"back": "There are exactly 20 vowel sounds (12 monophthongs and 8 diphthongs)."
+}
+],
+"mnemonics": [
+{
+"acronym": "PVP",
+"meaning": "Oral Evaluation Checklist",
+"breakdown": [
+"P - Pronounce the word quietly to isolate segments",
+"V - Verify vowel duration or consonant voicing properties",
+"P - Pair with matching phonetic choices"
+]
+}
+]
+}
+]
+}
+]
+}

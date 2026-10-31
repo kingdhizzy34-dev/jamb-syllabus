@@ -1,0 +1,894 @@
+{
+  "schema_version": "1.0",
+  "exam_body": "JAMB",
+  "subject_name": "Mathematics",
+  "syllabus_year": 2026,
+  "version": "2026.1",
+  "last_updated": "2026-10-30",
+  "sections": [
+    {
+      "section_id": "jamb_math_s1",
+      "section_title": "Section 1: Number and Numeration",
+      "topics": [
+        {
+          "topic_id": "jamb_math_s1_t1",
+          "archived": false,
+          "title": "Number Bases",
+          "summary": "This topic governs mathematical operations, arithmetic calculations, and fractional conversion patterns across diverse positional base numeral systems.",
+          "exam_tip": "Watch out for the borrowing step in subtraction. Always borrow values equal to the size of the base, never 10. Also, ensure no digit in your final answer is equal to or greater than the base itself.",
+          "analogy": "Shifting number bases is exactly like changing currency zones; the underlying value remains identical, but the nominal representation scales uniquely depending on the base unit grouping.",
+          "sub_topics": [
+            {
+              "title": "Positional Notation Primitives & Base Operations",
+              "note": "Number bases dictate the structure of positional numeral systems. While modern computational architectures rely heavily on binary (Base 2), octal (Base 8), and hexadecimal (Base 16), JAMB evaluates structural mastery across bases 2 through 10. In any base b, the maximum individual digit allowed is strictly bound by b-1. When performing column-by-column addition across arbitrary bases, sums matching or exceeding the radix require division by the base, carrying the quotient leftward and writing the remainder. In subtraction, borrowing 1 from a higher column shifts a value equal to the base radix into the lower column.",
+              "formula": "(d_n d_{n-1} \\dots d_0)_b = \\sum_{i=0}^{n} d_i \\cdot b^i"
+            },
+            {
+              "title": "Conversion Methodologies (Integers and Fractions)",
+              "note": "To convert from an arbitrary base X to Base 10, expand the number using successive positional powers of the source base. For fractional parts past the radix point, powers scale negatively starting from b^{-1}, b^{-2}, down to b^{-n}. To convert from Base 10 down to a target base Y, perform continuous long division by the target base radix, capturing the absolute integer remainders and reading them from bottom to top. For converting between two non-decimal bases (Base X to Base Y), use Base 10 as an intermediate bridge.",
+              "formula": "(0.d_{-1}d_{-2})_b = (d_{-1} \\times b^{-1}) + (d_{-2} \\times b^{-2})"
+            }
+          ],
+          "mnemonics": [
+            {
+              "acronym": "EDD",
+              "meaning": "Base Transformation Protocol",
+              "breakdown": [
+                "E - Expands to Ten using positional powers",
+                "D - Divide continuously by destination base",
+                "D - Destination reached reading remainders bottom-to-top"
+              ]
+            }
+          ],
+          "flashcards": [
+            {"front": "What is the maximum individual digit permitted in any base system 'b'?", "back": "The maximum digit allowed is always strictly b - 1."},
+            {"front": "Why is the expression 346_6 invalid?", "back": "Because the digit 6 cannot exist in Base 6; digits must strictly be less than the base."},
+            {"front": "How do you convert a number from Base 3 to Base 5?", "back": "First expand the Base 3 number to Base 10, then successively divide that result by 5."},
+            {"front": "What value do you carry over in Base 4 addition if a column sums up to 6?", "back": "You carry over 1 and write down 2, since 6 divided by 4 is 1 remainder 2."},
+            {"front": "What value is added to a column during subtraction in Base 8 when you borrow 1 from the left?", "back": "Exactly 8."},
+            {"front": "What does the first position to the right of the radix point represent in Base 2?", "back": "The positional value of 2^(-1) or 1/2."},
+            {"front": "Convert 1101_2 to Base 10.", "back": "13 (calculated as 8 + 4 + 0 + 1)."},
+            {"front": "Convert 25_10 to Base 2.", "back": "11001_2."},
+            {"front": "If 21_a = 15_10, find the value of a.", "back": "a = 7 (from 2a + 1 = 15)."},
+            {"front": "What is the value of 101_2 + 11_2?", "back": "1000_2."},
+            {"front": "What is the result of 100_2 - 1_2?", "back": "11_2."},
+            {"front": "What is the base radix of the Denary system?", "back": "Base 10."},
+            {"front": "What is the base radix of the Octal system?", "back": "Base 8."},
+            {"front": "True or False: The number 100112_2 is a valid binary string.", "back": "False, because the digit 2 cannot exist in binary."},
+            {"front": "How are remainders read during decimal-to-arbitrary base conversions?", "back": "Upward, from the final remainder (bottom) up to the first remainder (top)."},
+            {"front": "What is the decimal equivalent of 0.1_2?", "back": "0.5 (since 1 * 2^(-1) = 1/2)."},
+            {"front": "Express 15_8 in Base 10.", "back": "13 (since 1*8^1 + 5*8^0 = 8 + 5 = 13)."},
+            {"front": "Solve for x if x_10 = 22_4.", "back": "x = 10 (since 2*4 + 2 = 10)."},
+            {"front": "What column value shifts right in base multiplication when the product is 12 in Base 10?", "back": "Divide 12 by 10 to see its denary scale; across other bases, divide 12 by that base."},
+            {"front": "What is the maximum digit permitted in Base 10?", "back": "9."}
+          ]
+        },
+        {
+          "topic_id": "jamb_math_s1_t2",
+          "archived": false,
+          "title": "Fractions, Decimals, Approximations, and Percentages",
+          "summary": "This topic governs real number arithmetic operations, decimal point precision constraints, percentage errors, and commercial financial calculation tracking formulas.",
+          "exam_tip": "Percentage error baselines must always use the true/actual value in the denominator, never the estimated metric. Also, remember that leading zeros are never significant, while trailing zeros past a decimal point always are.",
+          "analogy": "Approximating significant figures is like focusing a camera lens: you only count the clear structural details after the first real object appears.",
+          "sub_topics": [
+            {
+              "title": "Approximation Precision, Standard Form & Estimation Errors",
+              "note": "Significant figures (s.f.) count starting from the first non-zero digit on the left. Leading zeros are functional placeholders (e.g., 0.00045 has 2 s.f.). Trailing zeros in a decimal fraction are significant (e.g., 5.200 has 4 s.f.). Standard form requires quantities to be formatted as A x 10^n, where 1 <= |A| < 10. In real-world observations, measurement discrepancies create operational errors. Absolute error is the positive difference between the estimated and true value, while percentage error scales this value against the true baseline.",
+              "formula": "\\text{Percentage Error} = \\frac{|\\text{Estimated} - \\text{True}|}{\\text{True}} \\times 100\\%"
+            },
+            {
+              "title": "Commercial Financial Calculations",
+              "note": "Simple interest accrues linearly on the principal vector over time. Compound interest loops earned interest yields back into the principal baseline assets for subsequent timeline compounding periods. JAMB also tests depreciation, which reduces asset values via negative compounding rates, as well as profit and loss percentages calculated relative to cost price.",
+              "formula": "\\text{Simple Interest } I = \\frac{PRT}{100}, \\quad \\text{Compound Amount } A = P\\left(1 + \\frac{R}{100}\\right)^n"
+            }
+          ],
+          "mnemonics": [
+            {
+              "acronym": "BODMAS",
+              "meaning": "Arithmetic Priority Rule",
+              "breakdown": [
+                "B - Brackets first",
+                "O - Of / Orders / Powers",
+                "D - Division",
+                "M - Multiplication",
+                "A - Addition",
+                "S - Subtraction"
+              ]
+            }
+          ],
+          "flashcards": [
+            {"front": "Does a leading zero count as a significant figure?", "back": "No, leading zeros are non-significant structural placeholders."},
+            {"front": "How many significant figures are in the value 0.003040?", "back": "4 significant figures (the digits 3, 0, 4, 0)."},
+            {"front": "State the standard form of 0.00567.", "back": "5.67 x 10^(-3)."},
+            {"front": "What value belongs in the denominator of a percentage error equation?", "back": "The absolute true or actual value."},
+            {"front": "A length of 5.0cm is measured as 4.8cm. What is the absolute error?", "back": "0.2cm (calculated as |4.8 - 5.0|)."},
+            {"front": "Convert 3/8 into a percentage value.", "back": "37.5%."},
+            {"front": "What is the formula for Compound Amount?", "back": "A = P(1 + R/100)^n"},
+            {"front": "If a profit of 20% is made on an item bought for N400, what is the selling price?", "back": "N480 (since 400 + 0.20 * 400 = 480)."},
+            {"front": "How many significant figures are in 45.00?", "back": "4 significant figures."},
+            {"front": "What is the value of 'Of' in BODMAS arithmetic?", "back": "It acts as a multiplication operator with higher priority than division."},
+            {"front": "Express 456000 in standard scientific form.", "back": "4.56 x 10^5."},
+            {"front": "What is the formula for calculating Simple Interest?", "back": "I = (P * R * T) / 100."},
+            {"front": "Define depreciating compound value structural formula.", "back": "A = P(1 - R/100)^n."},
+            {"front": "A boy estimates N50 but the true cost is N40. Find the percentage error.", "back": "25% (calculated as |50 - 40| / 40 * 100%)."},
+            {"front": "Round off 0.0987 to two significant figures.", "back": "0.099."},
+            {"front": "Convert 0.625 into a simple fraction in its lowest terms.", "back": "5/8."},
+            {"front": "What is the cost price baseline formula for profit percentage?", "back": "Profit % = (Profit / Cost Price) * 100."},
+            {"front": "Find the simple interest on N200 at 5% for 2 years.", "back": "N20 (calculated as 200 * 5 * 2 / 100)."},
+            {"front": "What is the value of 0.4 x 0.2?", "back": "0.08."},
+            {"front": "Does changing an item's position alter its absolute error calculation?", "back": "No, absolute error uses absolute value bars, so it is always positive."}
+          ]
+        },
+        {
+          "topic_id": "jamb_math_s1_t3",
+          "archived": false,
+          "title": "Indices, Logarithms, and Surds",
+          "summary": "This topic covers operational laws for exponential structures, mirror-image logarithmic scales, and irrational radical surd rationalisation procedures.",
+          "exam_tip": "When simplifying logarithms, exponents parachute down to the front as multipliers. For binomial surd denominators, always multiply the numerator and denominator by the conjugate surd to eliminate the radicals.",
+          "analogy": "Logarithms are the rearview mirrors of indices: if an index drives you forward from base to power, a logarithm looks backward to find the exact power that got you there.",
+          "sub_topics": [
+            {
+              "title": "Laws of Indices & Fundamental Logarithmic Operations",
+              "note": "Indices follow rules for multiplying, dividing, and raising expressions to powers. Logarithms are the inverse of indices: log_b(a) = c is equivalent to b^c = a. Key logarithmic properties convert multiplication to addition, division to subtraction, and powers to coefficients. The change of base rule allows expressions to be split into a quotient of two logarithms with a matching base.",
+              "formula": "a^x \\times a^y = a^{x+y}, \\quad \\log_b(xy) = \\log_b x + \\log_b y, \\quad \\log_b(a) = \\frac{\\log_c a}{\\log_c b}"
+            },
+            {
+              "title": "Surds Operations & Denominator Rationalisation",
+              "note": "Surds are irrational numbers that remain under radical signs. They can only be added or subtracted if they are like surds. Rationalisation is the process of removing radical surds from a fraction's denominator. For a binomial surd denominator, multiply both the numerator and denominator by its conjugate surd (reversing the middle sign). This removes the radicals using the difference of two squares identity.",
+              "formula": "(\\sqrt{a} + \\sqrt{b})(\\sqrt{a} - \\sqrt{b}) = a - b"
+            }
+          ],
+          "mnemonics": [
+            {
+              "acronym": "MADPP",
+              "meaning": "Logarithmic Operational Laws",
+              "breakdown": [
+                "M - Multiplication inside the log",
+                "A - Adds separate log terms together",
+                "D - Division inside the log",
+                "S - Subtracts separate log terms",
+                "PP - Powers Parachute down to the front as multipliers"
+              ]
+            }
+          ],
+          "flashcards": [
+            {"front": "State the multiplication law of indices.", "back": "a^x * a^y = a^(x + y)."},
+            {"front": "What does any non-zero base raised to the power of 0 equal?", "back": "1."},
+            {"front": "Convert the index equation 2^3 = 8 into its logarithmic equivalent.", "back": "log_2(8) = 3."},
+            {"front": "What does log_a(a) evaluate to?", "back": "1."},
+            {"front": "What does log_a(1) evaluate to?", "back": "0."},
+            {"front": "Simplify log(100) in base 10.", "back": "2."},
+            {"front": "State the logarithmic change of base formula for log_b(a).", "back": "log_c(a) / log_c(b)."},
+            {"front": "What is the fractional index expression for the cube root of x^2?", "back": "x^(2/3)."},
+            {"front": "Simplify the surd expression sqrt(50).", "back": "5 * sqrt(2) (since sqrt(25 * 2) = 5 * sqrt(2))."},
+            {"front": "What is the conjugate surd of sqrt(3) + 2?", "back": "sqrt(3) - 2."},
+            {"front": "Simplify log_10(5) + log_10(2).", "back": "1 (since log_10(5 * 2) = log_10(10) = 1)."},
+            {"front": "What is the value of 27^(1/3)?", "back": "3."},
+            {"front": "Simplify the expression sqrt(3) * sqrt(12).", "back": "6 (since sqrt(36) = 6)."},
+            {"front": "Define the characteristic of a common logarithm.", "back": "The integer component of the logarithm value."},
+            {"front": "Define the mantissa of a common logarithm.", "back": "The positive fractional or decimal component of the logarithm value."},
+            {"front": "What happens when you multiply a surd by itself, such as sqrt(7) * sqrt(7)?", "back": "It equals the rational number 7."},
+            {"front": "Simplify the index expression (x^3)^4.", "back": "x^12."},
+            {"front": "What is the value of 4^(-1/2)?", "back": "1/2 or 0.5."},
+            {"front": "How do you simplify a fraction with the denominator 2 / sqrt(3)?", "back": "Multiply the top and bottom by sqrt(3) to get 2sqrt(3) / 3."},
+            {"front": "True or False: sqrt(2) + sqrt(3) equals sqrt(5).", "back": "False. Unlike surds cannot be added directly."}
+          ]
+        },
+        {
+          "topic_id": "jamb_math_s1_t4",
+          "archived": false,
+          "title": "Sets & Venn Diagrams",
+          "summary": "This topic covers foundational set theory operations, subset calculations, structural intersections, and multi-set problem-solving using Venn diagrams.",
+          "exam_tip": "Look out for the phrasing 'only' in Venn diagram word problems. Subtract overlapping intersection regions from the group totals to isolate these regions accurately.",
+          "analogy": "A Venn diagram union cup is like a large storage bin: it holds everything from both collections without repeating identical items.",
+          "sub_topics": [
+            {
+              "title": "Set Theory Notations, Operations & Cardinalities",
+              "note": "A set is a well-defined collection of distinct elements. Key operations include the intersection (elements common to both sets), union (all unique elements across both sets), and complement (elements in the universal set that are not in the specified set). Disjoint sets share zero overlapping elements, meaning their intersection is the empty set.",
+              "formula": "n(A \\cup B) = n(A) + n(B) - n(A \\cap B)"
+            },
+            {
+              "title": "Three-Set Venn Diagram Analysis",
+              "note": "Three-set operations analyze systems with three intersecting groups. To solve these problems, work from the inside out: start with the central intersection of all three sets, then determine the two-set intersections, and finally isolate the elements that belong exclusively to single sets.",
+              "formula": "n(A\\cup B\\cup C) = n(A)+n(B)+n(C)-n(A\\cap B)-n(A\\cap C)-n(B\\cap C)+n(A\\cap B\\cap C)"
+            }
+          ],
+          "mnemonics": [
+            {
+              "acronym": "UIC",
+              "meaning": "Set Symbols Guide",
+              "breakdown": [
+                "U - Union symbol looks like a Cup to hold all elements",
+                "I - Intersection looks like an Arch covering only common items",
+                "C - Complement tick mark indicates elements outside the set"
+              ]
+            }
+          ],
+          "flashcards": [
+            {"front": "What formula calculates the total subset count of a set with n elements?", "back": "2^n."},
+            {"front": "Define a null or empty set.", "back": "A set containing zero elements, denoted by {} or the symbol \\emptyset."},
+            {"front": "If set A = {1, 2, 3} and set B = {3, 4, 5}, find A \\cap B.", "back": "{3}."},
+            {"front": "If set A = {1, 2} and set B = {2, 3}, find A \\cup B.", "back": "{1, 2, 3}."},
+            {"front": "What are disjoint sets?", "back": "Sets that share zero elements in common, meaning their intersection is a null set."},
+            {"front": "What does the complement of set A represent?", "back": "All elements in the universal set that do not belong to set A."},
+            {"front": "If n(A) = 20, n(B) = 15, and n(A \\cap B) = 5, find n(A \\cup B).", "back": "30 (calculated as 20 + 15 - 5)."},
+            {"front": "How many elements are in a power set of a set that contains 3 elements?", "back": "8 elements (since 2^3 = 8)."},
+            {"front": "What does the symbol \\mu or U represent in a Venn diagram?", "back": "The Universal Set."},
+            {"front": "True or False: An empty set is a valid subset of every known set.", "back": "True."},
+            {"front": "In a Venn diagram, what does the region outside circles A and B represent?", "back": "(A \\cup B)', meaning elements that belong to neither set A nor set B."},
+            {"front": "If the universal set has 40 items and n(A) = 25, find n(A').", "back": "15 (calculated as 40 - 25)."},
+            {"front": "What is a singleton set?", "back": "A set that contains exactly one single element."},
+            {"front": "Define the relationship if A \\subset B.", "back": "Every element inside set A belongs to set B."},
+            {"front": "What is the intersection of two disjoint sets?", "back": "The empty set (\\emptyset)."},
+            {"front": "If elements are listed as {a, b, c}, does changing their order create a new set?", "back": "No, order does not matter in set listings."},
+            {"front": "What is the intersection of set A with its own complement A'?", "back": "The empty set (\\emptyset)."},
+            {"front": "What is the union of set A with its own complement A'?", "back": "The Universal Set."},
+            {"front": "In a three-set problem, which region should you fill in first on a Venn diagram?", "back": "The central intersection where all three sets overlap (A \\cap B \\cap C)."},
+            {"front": "What does n(A - B) represent?", "back": "The number of elements that belong exclusively to set A and not to set B."}
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "jamb_math_s2",
+      "section_title": "Section 2: Algebra",
+      "topics": [
+        {
+          "topic_id": "jamb_math_s2_t1",
+          "archived": false,
+          "title": "Polynomials & Quadratic Equations",
+          "summary": "This topic covers factor and remainder theorems, expressions factoring up to degree 3, simultaneous linear-quadratic systems, and symmetric quadratic equations properties.",
+          "exam_tip": "Always flip the sign of the constant when finding a root to plug into the Remainder Theorem equation (e.g., x - 2 = 0 implies x = +2). For quadratic root problems, convert complex algebraic expressions into forms using only alpha-beta sums and products.",
+          "analogy": "Evaluating polynomials with the Remainder Theorem is like scanning an identity card barcode: it instantly pulls up the unique numerical value balance without forcing a full data lookup.",
+          "sub_topics": [
+            {
+              "title": "Remainder Theorem, Factor Theorem & Cubic Factoring",
+              "note": "Polynomials are variable expressions bound by non-negative integer powers. The Remainder Theorem allows you to evaluate a polynomial f(x) divided by a linear term (ax - b) by calculating the function output at its root. If the evaluated remainder equals exactly 0, the divisor is a perfect factor according to the Factor Theorem. This rule helps identify roots for cubic expressions before using synthetic or long division to find remaining terms.",
+              "formula": "\\text{Remainder } R = f\\left(\\frac{b}{a}\\right), \\quad f(r) = 0 \\implies (x - r) \\text{ is a factor}"
+            },
+            {
+              "title": "Symmetric Roots of Quadratic Systems",
+              "note": "Every quadratic system ax^2 + bx + c = 0 has two unique roots, alpha (\\alpha) and beta (\\beta). Rather than identifying individual root values, JAMB tests relationships like the sum and product of roots. Complex expressions must be rewritten algebraically using only these sum and product forms before substituting values.",
+              "formula": "\\alpha + \\beta = -\\frac{b}{a}, \\quad \\alpha\\beta = \\frac{c}{a}, \\quad \\alpha^2 + \\beta^2 = (\\alpha + \\beta)^2 - 2\\alpha\\beta"
+            }
+          ],
+          "mnemonics": [
+            {
+              "acronym": "SAD",
+              "meaning": "Symmetric Roots Target Steps",
+              "breakdown": [
+                "S - Sum and product equations extracted from constants",
+                "A - Algebraically rewrite the question using sum and product blocks",
+                "D - Directly substitute values to find the final result"
+              ]
+            }
+          ],
+          "flashcards": [
+            {"front": "What condition must be met for a divisor to be a factor of a polynomial?", "back": "The evaluated remainder must equal exactly 0."},
+            {"front": "State the formula for the sum of the roots of a quadratic equation.", "back": "\\alpha + \\beta = -\\frac{b}{a}."},
+            {"front": "State the formula for the product of the roots of a quadratic equation.", "back": "\\alpha\\beta = \\frac{c}{a}."},
+            {"front": "What is the remainder when f(x) = x^2 - 4x + 5 is divided by (x - 2)?", "back": "1 (calculated as f(2) = 4 - 8 + 5 = 1)."},
+            {"front": "If f(-1) = 0, what linear term is a factor of the polynomial f(x)?", "back": "(x + 1)."},
+            {"front": "Rewrite alpha^2 + beta^2 in terms of root sums and products.", "back": "(\\alpha + \\beta)^2 - 2\\alpha\\beta."},
+            {"front": "State the Discriminant formula for quadratic systems.", "back": "D = b^2 - 4ac."},
+            {"front": "What is the nature of the roots if the discriminant b^2 - 4ac is exactly 0?", "back": "The roots are real and equal."},
+            {"front": "What is the nature of the roots if the discriminant b^2 - 4ac is negative?", "back": "The roots are complex, imaginary, or non-real."},
+            {"front": "How do you construct a quadratic equation given its roots alpha and beta?", "back": "x^2 - (\\alpha + \\beta)x + \\alpha\\beta = 0."},
+            {"front": "What is the maximum number of real roots a cubic polynomial can have?", "back": "3 real roots."},
+            {"front": "Find the sum of the roots for the equation 2x^2 - 6x + 5 = 0.", "back": "3 (calculated as -(-6)/2 = 3)."},
+            {"front": "Find the product of the roots for the equation 3x^2 + 7x - 12 = 0.", "back": "-4 (calculated as -12/3 = -4)."},
+            {"front": "State the full quadratic formula.", "back": "x = [-b \\pm sqrt(b^2 - 4ac)] / 2a."},
+            {"front": "If x^2 - 5x + 6 = 0, find its roots.", "back": "x = 2 and x = 3."},
+            {"front": "What is the value of 1/alpha + 1/beta combined into a single fraction?", "back": "(\\alpha + \\beta) / (\\alpha\\beta)."},
+            {"front": "What type of equation layout maps a system combining y = 2x and x^2 + y^2 = 5?", "back": "A simultaneous linear-quadratic equation system."},
+            {"front": "True or False: Every quadratic equation must have two distinct real roots.", "back": "False. Roots can be equal or imaginary depending on the discriminant."},
+            {"front": "What happens to a polynomial degree value when it is divided by a linear expression?", "back": "The degree decreases by exactly 1."},
+            {"front": "What does a discriminant greater than 0 indicate?", "back": "Two distinct, real roots."}
+          ]
+        },
+        {
+          "topic_id": "jamb_math_s2_t2",
+          "archived": false,
+          "title": "Variation Models",
+          "summary": "This topic governs direct, inverse, joint, and partial scalar transformations mapping between linked structural variable systems.",
+          "exam_tip": "Look for repeating words like 'partly' in variation problems; it alerts you to set up a partial variation addition equation. Always calculate the constant k first using the initial conditions.",
+          "analogy": "Partial variation acts like running a transport service: you pay a fixed baseline fee just to board the vehicle, plus an extra variable fee for every kilometer traveled.",
+          "sub_topics": [
+            {
+              "title": "Direct, Inverse & Joint Proportional Scaling",
+              "note": "Variation analyzes algebraic relationships between properties. Direct variation implies values scale together at identical rates, meaning y = kx. Inverse variation models mean one value shrinks at a proportional rate as its partner grows, expressed as y = k/x. Joint models bind multiple variables together simultaneously, such as y = kxz^n.",
+              "formula": "y = kx, \\quad y = \\frac{k}{x}, \\quad y = kxz"
+            },
+            {
+              "title": "Partial Systems Separation Rules",
+              "note": "Partial variation splits overall expressions into distinct added segments. One section remains constant while the adjoining part changes directly or inversely alongside an external variable. Resolving partial systems requires using initial metrics to generate a simultaneous equation system to find both constants.",
+              "formula": "y = k_1 + k_2 x, \\quad y = k_1 x + \\frac{k_2}{z}"
+            }
+          ],
+          "mnemonics": [
+            {
+              "acronym": "IVC",
+              "meaning": "Variation Solving Chain",
+              "breakdown": [
+                "I - Identify the variation type from keyword structures",
+                "V - Value lookup to isolate the constant k",
+                "C - Calculate the missing target metric using the complete formula"
+              ]
+            }
+          ],
+          "flashcards": [
+            {"front": "What math system do you use to resolve a partial variation problem?", "back": "You use simultaneous linear equations to locate both variation constants."},
+            {"front": "State the equation layout for 'y varies inversely as the square of x'.", "back": "y = k / x^2."},
+            {"front": "If y varies directly as x, and y=10 when x=2, find the constant k.", "back": "k = 5 (since 10 = k * 2)."},
+            {"front": "If y varies inversely as x, and y=4 when x=3, find y when x=6.", "back": "y = 2 (since constant k = 4 * 3 = 12; then 12/6 = 2)."},
+            {"front": "State the algebraic formula for joint variation where w varies directly as x and inversely as z.", "back": "w = kx / z."},
+            {"front": "What word in a variation question indicates that you should add two separate constant terms?", "back": "The word 'partly'."},
+            {"front": "What is the relationship between variables in direct variation?", "back": "As one variable increases, the other increases proportionally; their quotient remains constant."},
+            {"front": "What is the relationship between variables in inverse variation?", "back": "As one variable increases, the other decreases proportionally; their product remains constant."},
+            {"front": "If P varies directly as the square root of Q, write out the equation framework.", "back": "P = k * sqrt(Q)."},
+            {"front": "What does the symbol \\propto represent in algebra?", "back": "Proportionality or variation."},
+            {"front": "How do you remove the variation symbol to create an equation?", "back": "Replace it with an equals sign and a constant multiplier k."},
+            {"front": "If x is proportional to y, does y vary directly or inversely as x?", "back": "Directly."},
+            {"front": "A quantity is partly constant and partly varies as x. Write the equation.", "back": "y = k_1 + k_2x."},
+            {"front": "If a car's stopping distance varies as the square of its speed, write the formula.", "back": "d = k * s^2."},
+            {"front": "If y \\propto 1/x, calculate x * y.", "back": "It equals the constant value k."},
+            {"front": "Can a variation constant k be a negative number?", "back": "Yes, depending on the data context."},
+            {"front": "If joint variation relies on three variables, how many constants are used?", "back": "One single constant k multiplies the variable group."},
+            {"front": "If y = 4x, find the percentage change in y if x increases by 10%.", "back": "y increases by exactly 10% due to the direct linear relationship."},
+            {"front": "If y = k/x, what happens to y if x is doubled?", "back": "y is halved or reduced by 50%."},
+            {"front": "What is the first step in solving any JAMB variation problem?", "back": "Translate the text into an algebraic equation using constant k."}
+          ]
+        },
+        {
+          "topic_id": "jamb_math_s2_t3",
+          "archived": false,
+          "title": "Linear Inequalities & Regions",
+          "summary": "This topic covers linear inequalities, conditional sign changes, quadratic boundary zones, and graphing overlapping regions on an analytical plane.",
+          "exam_tip": "The most critical rule in inequalities is to flip the direction of the sign whenever you multiply or divide the expression by a negative number.",
+          "analogy": "Solving an inequality is like driving within speed limits: you do not look for a single exact speed coordinate, but rather a safe range of speed values.",
+          "sub_topics": [
+            {
+              "title": "Linear Systems & The Negative Sign Inversion Rule",
+              "note": "Linear inequalities manage variable ranges using comparison signs. Solving an inequality follows the same algebraic rules as regular equations, with one exception: multiplying or dividing by a negative number flips the inequality symbol. Compound inequalities combine two boundary ranges that must be solved independently before combining their solution fields.",
+              "formula": "ax + b \\le c, \\quad -x > c \\implies x < -c"
+            },
+            {
+              "title": "Quadratic Inequalities & Coordinate Regions",
+              "note": "Quadratic inequalities are solved by finding their critical boundary roots. For an expression factored as (x - x_1)(x - x_2) < 0, the valid solution region lies between the roots. For expressions greater than 0, the solution regions lie outside the roots. These solution fields can be drawn on graphs as shaded regions bounded by solid or dashed boundary lines.",
+              "formula": "(x-x_1)(x-x_2) < 0 \\implies x_1 < x < x_2, \\quad > 0 \\implies x < x_1 \\text{ or } x > x_2"
+            }
+          ],
+          "mnemonics": [
+            {
+              "acronym": "DMNTT",
+              "meaning": "Inequality Transformation Warning Rule",
+              "breakdown": [
+                "DM - Divide or Multiply an inequality expression",
+                "N - Negative number used as the operator",
+                "TT - Turn the Traffic: reverse the inequality symbol instantly"
+              ]
+            }
+          ],
+          "flashcards": [
+            {"front": "What algebraic operation forces you to reverse an inequality sign?", "back": "Multiplying or dividing the inequality expression by a negative number."},
+            {"front": "Solve the linear inequality -3x < 9.", "back": "x > -3 (the sign flips due to dividing by -3)."},
+            {"front": "Where does the solution region lie for the quadratic inequality (x - 2)(x - 5) <= 0?", "back": "Between the roots: 2 <= x <= 5."},
+            {"front": "Where does the solution region lie for the quadratic inequality (x - 1)(x - 3) > 0?", "back": "Outside the roots: x < 1 or x > 3."},
+            {"front": "What type of line is used to graph the boundary of a strict inequality like y < 2x + 1?", "back": "A dashed or dotted boundary line."},
+            {"front": "What type of line is used to graph inequalities that include equals signs, like y >= 3x?", "back": "A solid boundary line."},
+            {"front": "Solve the compound inequality 2 < x + 1 <= 5.", "back": "1 < x <= 4 (subtract 1 from all parts)."},
+            {"front": "True or False: The inequality 4x - 2 >= 6 is equivalent to x >= 2.", "back": "True (add 2 to get 4x >= 8, then divide by 4)."},
+            {"front": "What is the critical boundary value of an inequality?", "back": "The root value where the inequality expression equals exactly 0."},
+            {"front": "If x > 5, is -2x greater than or less than -10?", "back": "Less than (-2x < -10)."},
+            {"front": "How do you test which side of a graphed line to shade for an inequality?", "back": "Substitute a test point (like (0,0)) to see if it satisfies the inequality statement."},
+            {"front": "Solve for x: 5x + 3 >= 2x + 12.", "back": "x >= 3."},
+            {"front": "What does a shaded region on an inequality graph represent?", "back": "The complete set of coordinate points that satisfy the inequality conditions."},
+            {"front": "Convert the solution range -2 <= x <= 4 into an absolute value inequality statement.", "back": "|x - 1| <= 3."},
+            {"front": "Solve the inequality 1 - 2x >= 5.", "back": "x <= -2 (since -2x >= 4 implies x <= -2)."},
+            {"front": "True or False: Squaring both sides of an inequality is always valid.", "back": "False, squaring can introduce invalid values if negative terms are present."},
+            {"front": "What does the intersection of multiple shaded inequality regions represent?", "back": "The solution space that satisfies all inequality constraints simultaneously."},
+            {"front": "Find the integer solutions for the range 2 < x < 6.", "back": "The integers 3, 4, and 5."},
+            {"front": "Solve x^2 - 9 < 0.", "back": "-3 < x < 3."},
+            {"front": "What does a strict inequality symbol mean?", "back": "The comparison excludes the exact boundary values (< or >)."}
+          ]
+        },
+        {
+          "topic_id": "jamb_math_s2_t4",
+          "archived": false,
+          "title": "Progressions (AP & GP)",
+          "summary": "This topic covers linear sequences with arithmetic differences, geometric progressions with scaling ratios, and infinite series convergence calculations.",
+          "exam_tip": "If a problem states three terms x, y, and z form an AP, use the shortcut equation 2y = x + z. If they form a GP, use the shortcut equation y^2 = xz to save time.",
+          "analogy": "An arithmetic progression grows like a flight of steps, adding a fixed height at each step, while a geometric progression scales like a cellular colony that doubles its size at every step.",
+          "sub_topics": [
+            {
+              "title": "Arithmetic Progressions (AP) Structure & Summations",
+              "note": "An AP is a sequence that changes by a steady additive value called the common difference (d), where d = T_n - T_{n-1}. The n-th term formula maps individual sequence values from a starting term (a). The sum formulas combine consecutive terms across an index range, and can use the final term value to simplify calculations.",
+              "formula": "T_n = a + (n-1)d, \\quad S_n = \\frac{n}{2}[2a + (n-1)d] = \\frac{n}{2}[a + l]"
+            },
+            {
+              "title": "Geometric Progressions (GP) & Infinite Series Convergence",
+              "note": "A GP is a sequence that changes by a steady multiplier factor called the common ratio (r), where r = T_n / T_{n-1}. The sum formulas change their layout depending on whether the common ratio is greater or less than 1. If the common ratio is a fraction between -1 and 1, the terms steadily shrink toward zero, allowing the entire infinite series to converge to a single finite limit.",
+              "formula": "T_n = ar^{n-1}, \\quad S_n = \\frac{a(r^n-1)}{r-1} \\, (r>1), \\quad S_\\infty = \\frac{a}{1-r} \\, (|r|<1)"
+            }
+          ],
+          "mnemonics": [
+            {
+              "acronym": "AGM",
+              "meaning": "Sequence Solving Shortcuts",
+              "breakdown": [
+                "A - AP systems use the middle term shortcut: 2 * Mean = Sum of Ends",
+                "G - GP systems use the middle term shortcut: Mean squared = Product of Ends",
+                "M - Match data points to find starting terms and ratios"
+              ]
+            }
+          ],
+          "flashcards": [
+            {"front": "State the n-th term formula for an Arithmetic Progression.", "back": "T_n = a + (n - 1)d."},
+            {"front": "State the n-th term formula for a Geometric Progression.", "back": "T_n = a * r^(n - 1)."},
+            {"front": "How do you calculate the common difference d of an AP?", "back": "Subtract any term from the term that follows it (d = T_n - T_(n-1))."},
+            {"front": "How do you calculate the common ratio r of a GP?", "back": "Divide any term by the term that comes before it (r = T_n / T_(n-1))."},
+            {"front": "What is the sum formula for an AP when the last term l is known?", "back": "S_n = (n / 2) * (a + l)."},
+            {"front": "State the formula for the sum to infinity of a geometric progression.", "back": "S_infty = a / (1 - r)."},
+            {"front": "What condition must the common ratio r meet for a sum to infinity to exist?", "back": "The absolute value of r must be strictly less than 1 (-1 < r < 1)."},
+            {"front": "Find the 10th term of the AP: 2, 5, 8, 11...", "back": "29 (calculated as 2 + 9*3 = 29)."},
+            {"front": "Find the 4th term of the GP: 3, 6, 12...", "back": "24 (calculated as 3 * 2^3 = 24)."},
+            {"front": "If the first term of an AP is 5 and the common difference is 2, find the sum of the first 5 terms.", "back": "45 (calculated as 5/2 * [2(5) + 4(2)] = 2.5 * 18 = 45)."},
+            {"front": "If three consecutive terms of an AP are 4, x, and 12, find x.", "back": "8 (using the shortcut 2x = 4 + 12 = 16)."},
+            {"front": "If three consecutive terms of a GP are 2, y, and 8, find the positive value of y.", "back": "4 (using the shortcut y^2 = 2 * 8 = 16)."},
+            {"front": "What does a progression series do if its terms grow larger without bound?", "back": "It diverges."},
+            {"front": "Find the sum to infinity of a GP where first term a=6 and common ratio r=1/2.", "back": "12 (calculated as 6 / (1 - 0.5) = 6 / 0.5 = 12)."},
+            {"front": "What is the common difference of the AP: 10, 7, 4, 1...", "back": "-3."},
+            {"front": "What is the common ratio of the GP: 8, -4, 2, -1...", "back": "-1/2 or -0.5."},
+            {"front": "True or False: The series 1 + 2 + 4 + 8 + ... has a valid sum to infinity.", "back": "False, because common ratio r=2, which is greater than 1."},
+            {"front": "If the sum of the first n terms of an AP is given by S_n = n^2, find the first term.", "back": "1 (since S_1 = 1^2 = 1)."},
+            {"front": "What is the arithmetic mean between the numbers 10 and 20?", "back": "15 (calculated as (10 + 20) / 2)."},
+            {"front": "What is the geometric mean between the numbers 4 and 9?", "back": "6 (calculated as sqrt(4 * 9) = sqrt(36) = 6)."}
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "jamb_math_s3",
+      "section_title": "Section 3: Geometry and Trigonometry",
+      "topics": [
+        {
+          "topic_id": "jamb_math_s3_t1",
+          "archived": false,
+          "title": "Euclidean Geometry & Circle Theorems",
+          "summary": "This topic handles the properties of lines, intersecting parallel systems, interior/exterior polygon parameters, and advanced intersecting circle geometric layouts.",
+          "exam_tip": "Do not mistake a center-pointed quadrilateral for a cyclic quadrilateral. All four corners must touch the circumference line. Also, use the alternate segment theorem whenever a triangle is bounded by a tangent line.",
+          "analogy": "Concentric circle vectors behave like ripple loops expanding on a pond: they spread out independently but remain perfectly locked to a singular shared center core point.",
+          "sub_topics": [
+            {
+              "title": "Polygons, Transversal Intersections & Angles Properties",
+              "note": "For any regular polygon with n sides, the interior angles expand linearly according to the formula, while the sum of the exterior angles remains clamped at exactly 360 degrees across every convex design shape. Angles meeting on straight lines sum up to 180 degrees. When parallel lines are cut by a transversal line, corresponding angles and alternate angles match exactly.",
+              "formula": "\\text{Interior Angle Sum} = (n - 2) \\times 180^\\circ, \\quad \\text{Each Exterior Angle} = \\frac{360^\\circ}{n}"
+            },
+            {
+              "title": "Circle Theorems & Alternate Segment Proof Fields",
+              "note": "Core proofs state that the angle sweeping out from the center is exactly twice the size of the angle hitting the remaining outer edge circumference. For cyclic quadrilaterals, opposite internal corners are supplementary, summing to 180 degrees. The alternate segment layout binds tangent vectors to matching internal chord parameters. Tangent lines running from an external point to a circle share identical lengths.",
+              "formula": "\\angle \\text{Center} = 2 \\times \\angle \\text{Circumference}, \\quad \\angle A + \\angle C = 180^\\circ \\, (\\text{Cyclic Quad})"
+            }
+          ],
+          "mnemonics": [
+            {
+              "acronym": "CQA",
+              "meaning": "Cyclic Quadrilateral Core Check",
+              "breakdown": [
+                "C - Corners must all touch the circle's outer edge line",
+                "Q - Quadrilateral boundaries verified to have four distinct sides",
+                "A - Add opposite interior angles together to hit exactly 180 degrees"
+              ]
+            }
+          ],
+          "flashcards": [
+            {"front": "What is the sum of the exterior angles of an 8-sided octagon polygon?", "back": "It is exactly 360 degrees. Exterior angle sums are a constant 360 degrees for all convex polygons."},
+            {"front": "State the formula for the sum of the interior angles of an n-sided polygon.", "back": "(n - 2) * 180 degrees."},
+            {"front": "Calculate each individual interior angle of a regular hexagon.", "back": "120 degrees (calculated as (6-2)*180 / 6 = 720/6 = 120)."},
+            {"front": "What angle value is subtended at the circumference by a diameter line passing through a semi-circle?", "back": "Exactly 90 degrees."},
+            {"front": "If an angle at the circle circumference is 40 degrees, what is the angle at the center from the same arc?", "back": "80 degrees (the angle at the center is twice as large)."},
+            {"front": "What is the relationship between opposite interior angles of a cyclic quadrilateral?", "back": "They are supplementary, meaning they add up to exactly 180 degrees."},
+            {"front": "State the Alternate Segment Theorem concept.", "back": "The angle between a tangent and a chord equals the angle subtended by the chord in the alternate segment."},
+            {"front": "What angle does a radius make with a tangent line at its point of contact?", "back": "Exactly 90 degrees (they are perpendicular)."},
+            {"front": "How many sides does a regular polygon have if each exterior angle is 36 degrees?", "back": "10 sides (calculated as 360 / 36 = 10)."},
+            {"front": "True or False: Angles in the same segment of a circle are equal.", "back": "True."},
+            {"front": "If two chords AB and CD intersect inside a circle at point P, state the chord segment relationship.", "back": "AP * PB = CP * PD."},
+            {"front": "What are concentric circles?", "back": "Circles of different sizes that share the exact same central point coordinate."},
+            {"front": "What is the sum of the interior angles of a pentagon?", "back": "540 degrees (calculated as (5-2) * 180 = 3 * 180 = 540)."},
+            {"front": "If an exterior angle of a regular polygon is 60 degrees, find its interior angle.", "back": "120 degrees (since interior + exterior = 180)."},
+            {"front": "What is a chord?", "back": "A straight line segment whose endpoints both lie on the circumference of a circle."},
+            {"front": "True or False: All four vertices of a cyclic quadrilateral can lie inside the circle without touching the edge.", "back": "False, all four vertices must lie squarely on the circumference line."},
+            {"front": "If a tangent segment PT and secant PAB are drawn from point P, state the power relationship.", "back": "PT^2 = PA * PB."},
+            {"front": "What is the value of alternate interior angles formed by parallel lines?", "back": "They are completely equal."},
+            {"front": "How many diagonals can be drawn inside a pentagon?", "back": "5 diagonals (using the formula n(n-3)/2)."},
+            {"front": "What do angles meeting at a single point sum up to?", "back": "360 degrees."}
+          ]
+        },
+        {
+          "topic_id": "jamb_math_s3_t2",
+          "archived": false,
+          "title": "Mensuration (Plane and Solid Figures)",
+          "summary": "This topic covers lengths, areas, and volumes for two-dimensional plane shapes, sector slices, segments, and 3D shapes like cylinders, cones, and frustums.",
+          "exam_tip": "Always check if a cylinder is 'closed' or 'open at one end' before writing out your surface area calculations. For segments, make sure your calculator or calculation matches whether the center angle is in degrees or radians.",
+          "analogy": "An empty cone frustum is like a simple drinking cup: it starts out as a full pyramid or cone shape but loses its pointed tip when a flat horizontal plane cuts it.",
+          "sub_topics": [
+            {
+              "title": "Plane Sector Splitting & Segment Isolation",
+              "note": "A sector represents a direct fractional slice of a circle's total footprint based on center angle theta out of 360 degrees. A segment area is isolated by calculating the complete sector area and subtracting the inner triangle footprint formed by the bounding radii.",
+              "formula": "L = \\frac{\\theta}{360} \\times 2\\pi r, \\quad \\text{Sector Area} = \\frac{\\theta}{360} \\times \\pi r^2, \\quad \\text{Segment Area} = \\frac{\\theta}{360}\\pi r^2 - \\frac{1}{2}r^2\\sin\\theta"
+            },
+            {
+              "title": "Three-Dimensional Solid Surface Area & Volume Models",
+              "note": "Uniform solid structures calculate volume by multiplying the uniform baseline area vector by height. Tapered shapes (cones, pyramids) drop to exactly one-third of that baseline metric. Frustums require tracking the difference between a complete shape and the removed small top piece. Surface area equations scale depending on the presence of solid caps or open boundaries.",
+              "formula": "\\text{Cylinder Volume} = \\pi r^2 h, \\quad \\text{Cone Volume} = \\frac{1}{3}\\pi r^2 h, \\quad \\text{Total Area (Closed Cylinder)} = 2\\pi r^2 + 2\\pi rh"
+            }
+          ],
+          "mnemonics": [
+            {
+              "acronym": "CSA",
+              "meaning": "Cylinder Flat Surfaces Check",
+              "breakdown": [
+                "C - Closed structure needs two base circles added to curved area",
+                "S - Single-cap items (like cups) need only one base circle added",
+                "A - Absent caps (like open pipes) use zero base circles, just curved area"
+              ]
+            }
+          ],
+          "flashcards": [
+            {"front": "How do you calculate the curved surface area of a standard solid cone?", "back": "You use Area = pi * r * L, where L represents the slant height."},
+            {"front": "State the formula for the volume of a sphere.", "back": "V = (4/3) * pi * r^3."},
+            {"front": "State the surface area formula for a complete solid sphere.", "back": "Area = 4 * pi * r^2."},
+            {"front": "Find the length of an arc if the radius is 7cm and the center angle is 60 degrees.", "back": "7.33cm (calculated as 60/360 * 2 * 22/7 * 7 = 44/6 = 7.33cm)."},
+            {"front": "What is the formula for the perimeter of a sector?", "back": "Perimeter = Arc Length + 2r."},
+            {"front": "How do you find the area of a circle segment?", "back": "Area of segment = Area of sector - Area of triangle."},
+            {"front": "What is the volume formula for a basic pyramid?", "back": "V = (1/3) * Base Area * Height."},
+            {"front": "If a cylinder has a radius of 3cm and height of 7cm, find its volume.", "back": "198 cm^3 (calculated as 22/7 * 3^2 * 7 = 22 * 9 = 198)."},
+            {"front": "Define a frustum.", "back": "The remaining lower part of a cone or pyramid after the top has been sliced off by a plane parallel to the base."},
+            {"front": "What is the formula for the curved surface area of a cylinder?", "back": "Area = 2 * pi * r * h."},
+            {"front": "Find the total surface area of a solid hemisphere.", "back": "Area = 3 * pi * r^2 (curved area 2*pi*r^2 + flat base area pi*r^2)."},
+            {"front": "What is the total surface area of a closed cube with side length 's'?", "back": "Area = 6 * s^2."},
+            {"front": "If the radius of a circle doubles, what happens to its total area?", "back": "The area quadruples (multiplies by 4, since area scales as r^2)."},
+            {"front": "Find the slant height L of a cone if its radius is 3cm and vertical height is 4cm.", "back": "5cm (using Pythagoras: L = sqrt(3^2 + 4^2) = sqrt(25) = 5)."},
+            {"front": "What is the area formula for a trapezium?", "back": "Area = 1/2 * (a + b) * h, where a and b are the parallel sides."},
+            {"front": "What is the area formula for a rhombus using its diagonals?", "back": "Area = 1/2 * d_1 * d_2."},
+            {"front": "True or False: An open pipe has a total surface area equal to 2*pi*r*h + 2*pi*r^2.", "back": "False, an open pipe has no flat base caps, so its area is just 2*pi*r*h."},
+            {"front": "Calculate the sector area if the angle is 90 degrees and the radius is 14cm.", "back": "154 cm^2 (calculated as 90/360 * 22/7 * 14 * 14 = 1/4 * 616 = 154)."},
+            {"front": "How many faces does a standard cuboid have?", "back": "6 faces."},
+            {"front": "What is the volume formula for a standard cone?", "back": "V = (1/3) * pi * r^2 * h."}
+          ]
+        },
+        {
+          "topic_id": "jamb_math_s3_t3",
+          "archived": false,
+          "title": "Coordinate Geometry & Trigonometry",
+          "summary": "This topic handles coordinate mapping, straight line gradients, perpendicular intercept vectors, multi-quadrant trig rotations, and navigation bearings.",
+          "exam_tip": "When managing line equations in the Ax + By + C = 0 general layout, the true gradient equals -A/B, not A. For bearings, always measure angles clockwise starting from true North and draw a fresh cross at every new stop point.",
+          "analogy": "Perpendicular slopes run like a standard coordinate cross: if one path marches forward up a hill, the intersecting line flips upside down and slides backward.",
+          "sub_topics": [
+            {
+              "title": "Cartesian Coordinate Equations & Linear Gradients",
+              "note": "Coordinate systems track straight lines on an axes plane. Parallel lines share identical slopes (m_1 = m_2), whereas perpendicular alignments have slopes that multiply to exactly -1, acting as negative reciprocals. Line functions evaluate point parameters using slope-intercept or point-slope configurations.",
+              "formula": "m = \\frac{y_2 - y_1}{x_2 - x_1}, \\quad m_1 \\times m_2 = -1, \\quad y - y_1 = m(x - x_1)"
+            },
+            {
+              "title": "Advanced Trigonometric Functions & Compass Bearings",
+              "note": "Trigonometric ratios track angles using the coordinate plane quadrants across standard values. Non-right angled systems deploy specialized sine and cosine rules to isolate missing lengths or corner angles. Three-digit navigation bearings calculate tracks clockwise from true North (000 degrees).",
+              "formula": "\\frac{a}{\\sin A} = \\frac{b}{\\sin B}, \\quad a^2 = b^2 + c^2 - 2bc\\cos A, \\quad \\sin^2\\theta + \\cos^2\\theta = 1"
+            }
+          ],
+          "mnemonics": [
+            {
+              "acronym": "ASTC",
+              "meaning": "Positive Trig Quadrants Mapping",
+              "breakdown": [
+                "A - All functions are positive in Quadrant 1 (0 to 90 degrees)",
+                "S - Sine only stays positive in Quadrant 2 (90 to 180 degrees)",
+                "T - Tangent only stays positive in Quadrant 3 (180 to 270 degrees)",
+                "C - Cosine only stays positive in Quadrant 4 (270 to 360 degrees)"
+              ]
+            }
+          ],
+          "flashcards": [
+            {"front": "If a line slope equals 3/4, what is the slope of a line running perfectly perpendicular to it?", "back": "It is -4/3. You flip the fraction upside down and reverse the sign."},
+            {"front": "State the formula for the distance between two points (x_1, y_1) and (x_2, y_2).", "back": "d = sqrt[(x_2 - x_1)^2 + (y_2 - y_1)^2]."},
+            {"front": "What is the midpoint formula between two coordinate pairs?", "back": "M = ( (x_1 + x_2)/2 , (y_1 + y_2)/2 )."},
+            {"front": "Find the gradient of the line connecting points (2, 5) and (4, 11).", "back": "3 (calculated as (11 - 5) / (4 - 2) = 6 / 2 = 3)."},
+            {"front": "State the fundamental Pythagorean identity for sine and cosine.", "back": "sin^2(theta) + cos^2(theta) = 1."},
+            {"front": "What is the exact numerical value of sin(150)?", "back": "0.5 or 1/2 (Quadrant 2 rule: sin(150) = sin(180 - 150) = sin(30) = 1/2)."},
+            {"front": "State the Cosine Rule for finding side length 'a'.", "back": "a^2 = b^2 + c^2 - 2bc * cos(A)."},
+            {"front": "Convert the angle 60 degrees into radians.", "back": "pi / 3 radians (multiply degrees by pi / 180)."},
+            {"front": "What is the numerical value of cos(90)?", "back": "0."},
+            {"front": "If line 1 has a gradient of -2, find the gradient of a line parallel to it.", "back": "-2 (parallel lines share identical gradients)."},
+            {"front": "What does a bearing of 270 degrees represent in standard compass directions?", "back": "Due West."},
+            {"front": "What quadrant does the angle 225 degrees fall under, and which primary trig function is positive there?", "back": "Quadrant 3, and only Tangent is positive."},
+            {"front": "State the slope-intercept equation format for a straight line.", "back": "y = mx + c."},
+            {"front": "Find the gradient of the line given by the equation 4x + 2y - 5 = 0.", "back": "-2 (rearrange to y = -2x + 2.5, so gradient m = -2)."},
+            {"front": "What is the reciprocal function of Cosine?", "back": "Secant (sec theta = 1 / cos theta)."},
+            {"front": "What is the value of tan(45)?", "back": "1."},
+            {"front": "State the Sine Rule equation framework.", "back": "a / sin(A) = b / sin(B) = c / sin(C)."},
+            {"front": "Simplify sin(-theta) based on odd function properties.", "back": "-sin(theta)."},
+            {"front": "What is the angle of depression alternate interior to?", "back": "The angle of elevation."},
+            {"front": "Find the y-intercept of the line y = 3x - 7.", "back": "-7."}
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "jamb_math_s4",
+      "section_title": "Section 4: Calculus",
+      "topics": [
+        {
+          "topic_id": "jamb_math_s4_t1",
+          "archived": false,
+          "title": "Differentiation & Limits",
+          "summary": "This topic introduces mathematical rates of change, graphical tangent lines calculations, limit configurations, and derivative operations on continuous functions.",
+          "exam_tip": "If directly plugging an input into a limit gives 0/0, use L'Hopital's rule by differentiating the top and bottom independently to evaluate the limit quickly.",
+          "analogy": "Differentiation behaves exactly like a car speedometer: instead of tracking your average pace over hours, it captures your speed at that singular split second.",
+          "sub_topics": [
+            {
+              "title": "Limits Optimization Tracking & Indeterminate Forms",
+              "note": "Limit equations evaluate what numeric value an expression approaches as variable x gets close to a specific value. When direct substitution creates indeterminate forms like 0/0, expressions must be factored out, simplified, or passed to L'Hopital's derivative rules.",
+              "formula": "\\lim_{x \\to a} \\frac{f(x)}{g(x)} = \\frac{0}{0} \\implies \\lim_{x \\to a} \\frac{f'(x)}{g'(x)}"
+            },
+            {
+              "title": "Functional Rules of Derivatives & Rates of Change",
+              "note": "Differentiating maps out instantaneous rates of change. The Power Rule multiplies by the original exponent before reducing the variable index by 1. Trigonometric derivatives trade places according to exact proofs: Sine differentiates to Cosine, and Cosine differentiates to negative Sine.",
+              "formula": "\\frac{d}{dx}(ax^n) = anx^{n-1}, \\quad \\frac{d}{dx}(\\sin x) = \\cos x, \\quad \\frac{d}{dx}(\\cos x) = -\\sin x"
+            }
+          ],
+          "mnemonics": [
+            {
+              "acronym": "BDB",
+              "meaning": "Power Rule Differentiation Steps",
+              "breakdown": [
+                "B - Bring the power down to multiply the front coefficient",
+                "D - Drop down the original index exponent value",
+                "B - Back it down by subtracting exactly 1 from the exponent"
+              ]
+            }
+          ],
+          "flashcards": [
+            {"front": "What does the first derivative of a curve represent geometrically?", "back": "It represents the exact slope gradient of the tangent line touching the curve at that single coordinate point."},
+            {"front": "Differentiate y = x^5 with respect to x.", "back": "dy/dx = 5x^4."},
+            {"front": "Find the first derivative of the polynomial expression y = 3x^2 - 4x + 6.", "back": "dy/dx = 6x - 4."},
+            {"front": "What is the derivative of a lone constant number with respect to x?", "back": "0 (since constants do not change, their rate of change is zero)."},
+            {"front": "Differentiate y = 4sin(x) with respect to x.", "back": "dy/dx = 4cos(x)."},
+            {"front": "Find the derivative of y = cos(x).", "back": "-sin(x)."},
+            {"front": "Evaluate the limit as x approaches 3 for the function (2x + 5).", "back": "11 (direct substitution gives 2*3 + 5 = 11)."},
+            {"front": "Differentiate y = tan(x) with respect to x.", "back": "sec^2(x)."},
+            {"front": "State the Product Rule formula for differentiating u * v.", "back": "dy/dx = u(dv/dx) + v*(du/dx)."},
+            {"front": "State the Quotient Rule formula for differentiating u / v.", "back": "dy/dx = [ v*(du/dx) - u*(dv/dx) ] / v^2."},
+            {"front": "What rule is used to differentiate composite functions like y = (3x + 1)^4?", "back": "The Chain Rule (Function of a Function rule)."},
+            {"front": "Differentiate the linear composite expression y = (2x + 5)^3.", "back": "6*(2x + 5)^2 (calculated as 3*(2x+5)^2 * 2)."},
+            {"front": "Find the slope of the tangent line to the curve y = x^2 at the point where x = 4.", "back": "8 (since dy/dx = 2x, substituting 4 gives 2*4 = 8)."},
+            {"front": "If a tangent line has a slope of 3, what is the slope of the normal line at that same point?", "back": "-1/3 (perpendicular normal rule)."},
+            {"front": "Differentiate y = 1/x by converting it to index form.", "back": "-1 / x^2 (since x^(-1) differentiates to -1x^(-2))."},
+            {"front": "What starting letter identifies trigonometric functions that differentiate to a negative result?", "back": "The letter 'C' (like Cosine, Cosecant, Cotangent)."},
+            {"front": "Differentiate y = 5x with respect to x.", "back": "5."},
+            {"front": "What does L'Hopital's rule require you to do to evaluate a limit with an indeterminate form?", "back": "Differentiate the numerator and denominator independently, then evaluate the limit again."},
+            {"front": "True or False: The derivative of sin(x) is -cos(x).", "back": "False, the derivative of sin(x) is positive cos(x)."},
+            {"front": "Find the second derivative of y = x^3.", "back": "6x (first derivative is 3x^2, second derivative is 6x)."}
+          ]
+        },
+        {
+          "topic_id": "jamb_math_s4_t2",
+          "archived": false,
+          "title": "Applications of Differentiation & Integration",
+          "summary": "This topic applies derivatives to solve optimization systems, turning peaks (maxima), turning valleys (minima), kinematics equations, and integration anti-derivatives area calculation models.",
+          "exam_tip": "Always remember to add the constant of integration (+C) to the tail end of every single indefinite integral expression. Also, when evaluating definite integrals, always perform top boundary value minus bottom boundary value.",
+          "analogy": "Integration operates like compiling a complete digital image from thousands of tiny microscopic horizontal pixel row strips: adding up all the minuscule slices reveals the full area trapped under the curve.",
+          "sub_topics": [
+            {
+              "title": "Stationary Turning Conditions & Turning Point Optimization",
+              "note": "Stationary milestone points occur on a coordinate line wherever the first derivative runs flat, matching zero. Evaluating the second derivative confirms if a specific turning location indicates a peak maximum point or an upward valley minimum.",
+              "formula": "\\text{Turning Point: } \\frac{dy}{dx} = 0, \\quad \\text{Maxima: } \\frac{d^2y}{dx^2} < 0, \\quad \\text{Minima: } \\frac{d^2y}{dx^2} > 0"
+            },
+            {
+              "title": "Anti-Derivatives, Definite Integrals & Bounded Area Layout",
+              "note": "Integration reverses differentiation. Indefinite integration appends a missing variable placeholder constant (+C). Definite expressions evaluate geometric space limits between fixed boundary walls by computing the difference between upper and lower boundary metrics.",
+              "formula": "\\int x^n \\, dx = \\frac{x^{n+1}}{n+1} + C, \\quad \\text{Area} = \\int_{a}^{b} f(x) \\, dx"
+            }
+          ],
+          "mnemonics": [
+            {
+              "acronym": "VAI",
+              "meaning": "Kinematics Operations Vector",
+              "breakdown": [
+                "V - Velocity is the derivative of displacement over time",
+                "A - Acceleration is the derivative of velocity over time",
+                "I - Integration reverses the loop back down from acceleration to displacement"
+              ]
+            }
+          ],
+          "flashcards": [
+            {"front": "What kinematics metric do you get by differentiating displacement over time?", "back": "Differentiating displacement yields instantaneous velocity."},
+            {"front": "What algebraic condition identifies a stationary turning point on a curve?", "back": "The first derivative must equal exactly zero (dy/dx = 0)."},
+            {"front": "If dy/dx = 0 and d^2y/dx^2 = -4 at a turning point, what type of point is it?", "back": "A Maximum Turning Point."},
+            {"front": "If dy/dx = 0 and d^2y/dx^2 = +6 at a turning point, what type of point is it?", "back": "A Minimum Turning Point."},
+            {"front": "State the standard indefinite power rule of integration for x^n.", "back": "Integral = [ x^(n+1) / (n+1) ] + C (where n is not equal to -1)."},
+            {"front": "Integrate the algebraic term 3x^2 with respect to x.", "back": "x^3 + C."},
+            {"front": "What is the integral of a lone constant k with respect to x?", "back": "kx + C."},
+            {"front": "Integrate cos(x) with respect to x.", "back": "sin(x) + C."},
+            {"front": "Integrate sin(x) with respect to x.", "back": "-cos(x) + C (integrating sine introduces a negative sign)."},
+            {"front": "What trigonometric expression integrates to tan(x) + C?", "back": "sec^2(x)."},
+            {"front": "Evaluate the definite integral of 2x from x=1 to x=3.", "back": "8 (integrated form is x^2; substituted limits give 3^2 - 1^2 = 9 - 1 = 8)."},
+            {"front": "What does a definite integral calculate geometrically?", "back": "The exact net area bounded between a curve graph, the reference axis, and boundary limits."},
+            {"front": "Why does the integration constant C vanish during definite integral evaluations?", "back": "It cancels out completely during the boundary subtraction step: (F(b)+C) - (F(a)+C) = F(b) - F(a)."},
+            {"front": "If a velocity function is v = 4t, find the acceleration function.", "back": "4 (acceleration is the derivative of velocity)."},
+            {"front": "If a velocity function is v = 3t^2, find the displacement function assuming initial displacement is zero.", "back": "s = t^3 (displacement is the integral of velocity)."},
+            {"front": "Integrate the linear composite expression (x + 4)^2 with respect to x.", "back": "[ (x + 4)^3 / 3 ] + C."},
+            {"front": "What is the value of the definite integral of x^3 from x=-2 to x=2?", "back": "0 (since x^3 is an odd function, the negative area bounds completely cancel out the positive area)."},
+            {"front": "Find the turning point coordinates of the curve y = x^2 - 6x + 5.", "back": "x = 3 (since dy/dx = 2x - 6 = 0 implies x = 3)."},
+            {"front": "State the core equation framework to find the area between curves y_1 and y_2 from x=a to x=b where y_1 > y_2.", "back": "Area = Integral from a to b of (y_1 - y_2) dx."},
+            {"front": "What is the mnemonic trick for power rule integration processes?", "back": "Add to the power, then instantly Divide by that new power value."}
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "jamb_math_s5",
+      "section_title": "Section 5: Matrices and Statistics",
+      "topics": [
+        {
+          "topic_id": "jamb_math_s5_t1",
+          "archived": false,
+          "title": "Matrices, Determinants & Transformations",
+          "summary": "This topic covers matrix operations, dimension rules, determinant derivations for 2x2 and 3x3 matrices, inverses, and the singular state condition.",
+          "exam_tip": "JAMB regularly presents a matrix filled with variables, labels it singular, and asks you to solve for an unknown x. Instantly set the cross-multiplied equation ad - bc = 0 and isolate your variable.",
+          "analogy": "Matrix multiplication is like running across a horizontal road and diving straight down a vertical cliff: you multiply across the row elements of the first grid while moving down the column elements of the second.",
+          "sub_topics": [
+            {
+              "title": "Matrix Grids, Dimensions & Arithmetic Parameters",
+              "note": "A matrix is a rectangular grid array organizing numerical elements into rows and columns, denoted as Rows x Columns. Addition and subtraction require identical dimensions. Matrix multiplication is strictly restricted: the number of columns in the first matrix must match the number of rows in the second matrix. Matrix multiplication is generally non-commutative (A x B is not equal to B x A).",
+              "formula": "\\begin{pmatrix} a & b \\\\ c & d \\end{pmatrix} \\begin{pmatrix} x & y \\\\ z & w \\end{pmatrix} = \\begin{pmatrix} (ax+bz) & (ay+bw) \\\\ (cx+dz) & (cy+dw) \\end{pmatrix}"
+            },
+            {
+              "title": "Determinants, Inverses & The Singular Non-Invertible State",
+              "note": "The determinant is a scalar value calculated from square matrices. For a 2x2 grid, it equals ad - bc. The matrix inverse is constructed by swapping the main diagonal values, reversing the signs of the off-diagonal entries, and dividing every element by the determinant. If the determinant equals exactly zero, the matrix is Singular and has no valid inverse.",
+              "formula": "\\det(A) = ad - bc, \\quad A^{-1} = \\frac{1}{ad - bc} \\begin{pmatrix} d & -b \\\\ -c & a \\end{pmatrix}, \\quad \\det(A) = 0 \\implies \\text{Singular}"
+            }
+          ],
+          "mnemonics": [
+            {
+              "acronym": "RCC",
+              "meaning": "Matrix Reading Order Standard",
+              "breakdown": [
+                "R - Rows always listed first to identify dimensions",
+                "C - Columns always listed second in dimensions",
+                "C - Cross-multiply dimensions to verify if multiplication is valid (Inner dimensions must match)"
+              ]
+            }
+          ],
+          "flashcards": [
+            {"front": "What are the dimensions of a matrix grid containing 3 rows and 4 columns?", "back": "3 x 4."},
+            {"front": "State the condition required for two matrices A and B to be multiplied as A x B.", "back": "The total column count of matrix A must equal the total row count of matrix B."},
+            {"front": "Calculate the determinant of the 2x2 matrix: [ [5, 2], [3, 4] ].", "back": "14 (calculated as ad - bc = 5*4 - 2*3 = 20 - 6 = 14)."},
+            {"front": "If a matrix has a determinant equal to exactly zero, what is it called?", "back": "A Singular Matrix."},
+            {"front": "Why is it impossible to find the inverse of a singular matrix?", "back": "Because the inverse formula requires dividing by the determinant, and division by zero is mathematically undefined."},
+            {"front": "If the matrix [ [x, 3], [4, 6] ] is singular, calculate the value of x.", "back": "2 (since 6x - 12 = 0 implies 6x = 12, so x = 2)."},
+            {"front": "What are the elements on the main diagonal of a 2x2 Identity Matrix?", "back": "1 and 1 (with 0 and 0 on the off-diagonal positions)."},
+            {"front": "What operation converts matrix rows directly into columns?", "back": "Transposition (finding the transpose matrix, denoted as A^T)."},
+            {"front": "Perform scalar multiplication: 2 * [ [1, -3], [4, 0] ].", "back": "[ [2, -6], [8, 0] ] (every individual element is scaled by 2)."},
+            {"front": "Does matrix multiplication follow the commutative law?", "back": "No, in general, A x B does not equal B x A."},
+            {"front": "What matrix do you get when you multiply any square matrix by its own inverse?", "back": "The Identity Matrix (I)."},
+            {"front": "Find the determinant of the matrix [ [3, -1], [2, 4] ].", "back": "14 (calculated as 3*4 - (-1*2) = 12 + 2 = 14)."},
+            {"front": "What happens if you transpose a matrix twice, such as (A^T)^T?", "back": "You return directly to the original matrix A."},
+            {"front": "If matrix A has a determinant of 5, what is the determinant of its inverse matrix?", "back": "1/5 or 0.2 (since det(A^-1) = 1 / det(A))."},
+            {"front": "What is the determinant value of any standard Identity Matrix?", "back": "1."},
+            {"front": "What is a matrix called if it equals its own transpose (A = A^T)?", "back": "A Symmetric Matrix."},
+            {"front": "Can two matrices of dimensions 2x3 and 2x3 be multiplied together?", "back": "No, because the column count of the first (3) does not match the row count of the second (2)."},
+            {"front": "Can two matrices of dimensions 2x3 and 2x3 be added together?", "back": "Yes, matrix addition requires completely identical structural dimensions."},
+            {"front": "State the shortcut mnemonic for preparing the 2x2 inverse matrix configuration.", "back": "Swap the positions of the main diagonal numbers, and flip the positive/negative signs of the other two numbers."},
+            {"front": "Find the product matrix of [2, 3] multiplied by the column matrix [4; 5].", "back": "The 1x1 matrix [23] (calculated as 2*4 + 3*5 = 8 + 15 = 23)."}
+          ]
+        },
+        {
+          "topic_id": "jamb_math_s5_t2",
+          "archived": false,
+          "title": "Measures of Location & Dispersion",
+          "summary": "This topic tracks data organization using mean averages, grouped frequency table boundaries, interpolation medians, variance models, and standard deviation spread metrics.",
+          "exam_tip": "Standard deviation is simply the positive square root of your variance value. Solve variance first, then hit the root. Remember that adding a constant to all data values updates the mean but leaves variance and standard deviation completely unchanged.",
+          "analogy": "Standard deviation works exactly like an archery scorecard: a small deviation score shows a tight cluster of arrows close to the center bullseye, while a massive score shows shots flying widely all over the target area.",
+          "sub_topics": [
+            {
+              "title": "Grouped Central Tendency Elements & Ogive Interpolation",
+              "note": "Mean values in grouped arrays compile by tracking midpoint variables multiplied across matching class frequency columns. Median values use interpolation steps across cumulative frequency curves (Ogives) to trace coordinates accurately, establishing lines at the exact half-frequency index point.",
+              "formula": "\\bar{x} = \\frac{\\sum f \\cdot x}{\\sum f}, \\quad \\text{Median} = L_1 + \\left( \\frac{\\frac{N}{2} - cf}{f_m} \\right) \\cdot c"
+            },
+            {
+              "title": "Data Scatter Measures & Variance Calculations",
+              "note": "Dispersion models track how widely distributed numbers map out around their collective baseline mean center point. Mean deviation calculates raw absolute distance averages, while variance tracks squared deviations to secure stable metrics. Standard deviation returns values back into original data units.",
+              "formula": "\\sigma^2 = \\frac{\\sum f x^2}{\\sum f} - (\\bar{x})^2, \\quad \\sigma = \\sqrt{\\text{Variance}}"
+            }
+          ],
+          "mnemonics": [
+            {
+              "acronym": "MMM",
+              "meaning": "Central Placement Indicators",
+              "breakdown": [
+                "M - Mean captures the balanced mathematical center point average",
+                "M - Median marks the exact physical center element row when ordered",
+                "M - Mode identifies the single highest frequency cluster most present"
+              ]
+            }
+          ],
+          "flashcards": [
+            {"front": "Calculate the arithmetic Mean of the data set: 4, 7, 10, 15.", "back": "9 (calculated as (4 + 7 + 10 + 15) / 4 = 36 / 4 = 9)."},
+            {"front": "Find the Median of this ordered data list: 3, 5, 6, 9, 11, 20.", "back": "7.5 (Even count; average the middle two numbers: (6 + 9) / 2 = 7.5)."},
+            {"front": "What is the Mode of the data sample: 2, 5, 2, 8, 3, 2, 9?", "back": "2 (it appears most frequently, exactly 3 times)."},
+            {"front": "Find the Range of this data sample: 12, 4, 19, 45, 8, 23.", "back": "41 (maximum value 45 minus minimum value 4)."},
+            {"front": "If the variance of a data distribution is 144, find its standard deviation.", "back": "12 (calculated as the square root of 144)."},
+            {"front": "If the standard deviation of a set of scores is 5, calculate the variance.", "back": "25 (calculated as 5 squared)."},
+            {"front": "State the formula for the class midpoint x of the interval 20 to 29.", "back": "24.5 (calculated as (20 + 29) / 2 = 49 / 2 = 24.5)."},
+            {"front": "What percentage of data entries are located below the second quartile (Q2)?", "back": "50% (since Q2 is the exact Median of the distribution)."},
+            {"front": "Write the formula for calculating the Interquartile Range (IQR).", "back": "IQR = Q3 - Q1 (Upper Quartile minus Lower Quartile)."},
+            {"front": "In a pie chart, a frequency of 5 out of a total of 20 gets what sector angle?", "back": "90 degrees (calculated as 5 / 20 * 360 degrees = 1/4 * 360 = 90 degrees)."},
+            {"front": "What graphical curve is used to estimate medians, quartiles, and percentiles?", "back": "An Ogive (Cumulative Frequency Curve)."},
+            {"front": "If every number in a data set is increased by 3, what happens to the mean?", "back": "The mean increases by exactly 3."},
+            {"front": "If every number in a data set is increased by 3, what happens to the standard deviation?", "back": "It remains completely unchanged because the data spread does not alter when shifted together."},
+            {"front": "Calculate the Mean Deviation of these values from their mean (mean=5): 3, 5, 7.", "back": "1.33 or 4/3 (calculated as (|3-5| + |5-5| + |7-5|) / 3 = (2 + 0 + 2) / 3 = 4/3)."},
+            {"front": "What does a variance value of 0 tell you about a data set?", "back": "All data points are completely identical to each other (there is no spread)."},
+            {"front": "What property of a histogram bar represents its corresponding frequency?", "back": "The total area of the bar is proportional to its class frequency."},
+            {"front": "Find the mean of the first five positive integers: 1, 2, 3, 4, 5.", "back": "3 (calculated as 15 / 5 = 3)."},
+            {"front": "What percentage of data falls between the lower quartile Q1 and the upper quartile Q3?", "back": "50% (this represents the middle half of the distribution)."},
+            {"front": "If a distribution curve has a long tail stretching out to the right side, what is its skewness?", "back": "It is Positively Skewed."},
+            {"front": "State the statistical term for an extreme data value that sits far away and distorts the mean.", "back": "An Outlier."}
+          ]
+        },
+        {
+          "topic_id": "jamb_math_s5_t3",
+          "archived": false,
+          "title": "Permutations, Combinations & Probability",
+          "summary": "This topic covers linear/circular item arrangements, selective grouping configurations, experimental probability layouts, independent combinations, and mutually exclusive intersection rules.",
+          "exam_tip": "Look closely at conjunction tags: 'AND' word prompts demand multiplying separate event probabilities together, while 'OR' loops call for adding them up.",
+          "analogy": "Permutations map out an elegant combo locker pad sequence where order means everything, while combinations act like a simple grocery list basket where throwing items in early or late changes nothing.",
+          "sub_topics": [
+            {
+              "title": "Counting Principles, Factorials & Selection Arrangements",
+              "note": "Permutations count configuration systems where ordering sequence matters. Circular arrangements fix one baseline element index position to prevent redundant matching sequences, adapting the formula down to (n-1)!. Combinations trace selections where internal ordering holds zero value.",
+              "formula": "^nP_r = \\frac{n!}{(n - r)!}, \\quad P_{circular} = (n - 1)!, \\quad ^nC_r = \\frac{n!}{r!(n - r)!}"
+            },
+            {
+              "title": "Axiomatic & Compound Probability Calculus",
+              "note": "Probability tracks events likelihood inside a strict scale boundary from 0 to 1. Mutually exclusive scenarios cannot happen at the same time (OR conditions), triggering basic addition. Independent consecutive chains execute via multiplication steps. Complementary metrics verify tracking ranges.",
+              "formula": "P(A \\cup B) = P(A) + P(B), \\quad P(A \\cap B) = P(A) \\cdot P(B), \\quad P(A') = 1 - P(A)"
+            }
+          ],
+          "mnemonics": [
+            {
+              "acronym": "OAA",
+              "meaning": "Probability Conjunction Arithmetic",
+              "breakdown": [
+                "O - Or word prompts match",
+                "A - Addition operations between events (+)",
+                "A - And word prompts require multiplication calculations (x)"
+              ]
+            }
+          ],
+          "flashcards": [
+            {"front": "What value do you get by adding the probability of an event happening to the probability of it not happening?", "back": "The total sum is always exactly 1 (P(A) + P(A') = 1)."},
+            {"front": "A bag holds 3 red balls and 7 blue balls. Find the probability of picking a red ball at random.", "back": "3/10 or 0.3 (favorable outcomes 3 over total outcomes 10)."},
+            {"front": "If the probability of an event happening is 0.15, what is its complement probability?", "back": "0.85 (calculated as 1 - 0.15 = 0.85)."},
+            {"front": "What is the total sample space size n(S) when tossing two standard coins together?", "back": "4 possible outcomes (HH, HT, TH, TT)."},
+            {"front": "What is the probability of rolling a 7 using a single standard six-sided die?", "back": "0 (this is an impossible event)."},
+            {"front": "If events A and B are independent, and P(A)=0.4, P(B)=0.5, find P(A and B).", "back": "0.2 (calculated via multiplication: 0.4 * 0.5 = 0.2)."},
+            {"front": "If events X and Y are mutually exclusive, and P(X)=1/6, P(Y)=2/6, find P(X or Y).", "back": "3/6 or 1/2 (calculated via addition: 1/6 + 2/6 = 3/6)."},
+            {"front": "Calculate the exact value of 5 factorials (5!).", "back": "120 (calculated as 5 * 4 * 3 * 2 * 1 = 120)."},
+            {"front": "Evaluate the permutation arrangement _5P_2.", "back": "20 (calculated as 5! / (5-2)! = 5 * 4 = 20)."},
+            {"front": "Evaluate the combination grouping _5C_2.", "back": "10 (calculated as 5! / [2! * (5-2)!] = (5 * 4) / (2 * 1) = 10)."},
+            {"front": "How many different ways can the letters in the word 'BOY' be rearranged?", "back": "6 ways (calculated as 3! = 3 * 2 * 1 = 6)."},
+            {"front": "How many ways can you choose a committee of 2 people from a group of 4 individuals?", "back": "6 ways (calculated using combinations: _4C_2 = (4 * 3) / (2 * 1) = 6)."},
+            {"front": "If a coin is flipped three consecutive times, how many total outcomes are in the sample space?", "back": "8 outcomes (calculated as 2^3 = 8)."},
+            {"front": "Find the probability of rolling a total sum of 12 when tossing two fair dice.", "back": "1/36 (only one favorable outcome combination satisfies this: (6,6))."},
+            {"front": "A card is drawn from a standard deck of 52 cards. Find the probability it is a King.", "back": "4/52 or 1/13 (there are exactly 4 Kings in a standard deck)."},
+            {"front": "What mathematical value does 0 factorials (0!) evaluate to?", "back": "Exactly 1."},
+            {"front": "How many distinct ways can 4 people be seated around a circular dining table?", "back": "6 ways (calculated using the circular permutation formula: (4-1)! = 3! = 6)."},
+            {"front": "State the value of _nC_n for any positive integer group size.", "back": "Exactly 1 (there is only one way to choose everyone into a group)."},
+            {"front": "State the value of _nP_1 for any positive integer group size.", "back": "It equals n."},
+            {"front": "What is the probability of an event that is absolutely certain to happen?", "back": "Exactly 1."}
+          ]
+        }
+      ]
+    }
+  ]
+}
